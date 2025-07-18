@@ -1,0 +1,2929 @@
+[
+  {
+    "id": "jp_hiragana_1",
+    "type": "language",
+    "question": "「あさ」の読み方はどれですか？",
+    "answer": "あさ",
+    "choices": [
+      "あさ",
+      "いぬ",
+      "くも",
+      "こえ",
+      "かお"
+    ],
+    "explanation": "「あさ」はひらがなで「あさ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_2",
+    "type": "language",
+    "question": "「あした」の読み方はどれですか？",
+    "answer": "あした",
+    "choices": [
+      "あした",
+      "かお",
+      "えき",
+      "いぬ",
+      "けむり"
+    ],
+    "explanation": "「あした」はひらがなで「あした」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_3",
+    "type": "language",
+    "question": "「あす」の読み方はどれですか？",
+    "answer": "あす",
+    "choices": [
+      "あす",
+      "えき",
+      "きつね",
+      "あさ",
+      "けむり"
+    ],
+    "explanation": "「あす」はひらがなで「あす」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_4",
+    "type": "language",
+    "question": "「あせ」の読み方はどれですか？",
+    "answer": "あせ",
+    "choices": [
+      "あせ",
+      "おに",
+      "かお",
+      "きつね",
+      "こえ"
+    ],
+    "explanation": "「あせ」はひらがなで「あせ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_5",
+    "type": "language",
+    "question": "「あめ」の読み方はどれですか？",
+    "answer": "あめ",
+    "choices": [
+      "あめ",
+      "うみ",
+      "こえ",
+      "いぬ",
+      "あさ"
+    ],
+    "explanation": "「あめ」はひらがなで「あめ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_6",
+    "type": "language",
+    "question": "「いぬ」の読み方はどれですか？",
+    "answer": "いぬ",
+    "choices": [
+      "いぬ",
+      "きつね",
+      "けむり",
+      "あさ",
+      "おに"
+    ],
+    "explanation": "「いぬ」はひらがなで「いぬ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_7",
+    "type": "language",
+    "question": "「いえ」の読み方はどれですか？",
+    "answer": "いえ",
+    "choices": [
+      "いえ",
+      "うみ",
+      "こえ",
+      "あさ",
+      "きつね"
+    ],
+    "explanation": "「いえ」はひらがなで「いえ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_8",
+    "type": "language",
+    "question": "「いす」の読み方はどれですか？",
+    "answer": "いす",
+    "choices": [
+      "いす",
+      "いぬ",
+      "えき",
+      "きつね",
+      "こえ"
+    ],
+    "explanation": "「いす」はひらがなで「いす」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_9",
+    "type": "language",
+    "question": "「いと」の読み方はどれですか？",
+    "answer": "いと",
+    "choices": [
+      "いと",
+      "あさ",
+      "おに",
+      "くも",
+      "うみ"
+    ],
+    "explanation": "「いと」はひらがなで「いと」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_10",
+    "type": "language",
+    "question": "「いし」の読み方はどれですか？",
+    "answer": "いし",
+    "choices": [
+      "いし",
+      "あさ",
+      "こえ",
+      "おに",
+      "かお"
+    ],
+    "explanation": "「いし」はひらがなで「いし」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_11",
+    "type": "language",
+    "question": "「うみ」の読み方はどれですか？",
+    "answer": "うみ",
+    "choices": [
+      "うみ",
+      "いぬ",
+      "きつね",
+      "こえ",
+      "くも"
+    ],
+    "explanation": "「うみ」はひらがなで「うみ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_12",
+    "type": "language",
+    "question": "「うし」の読み方はどれですか？",
+    "answer": "うし",
+    "choices": [
+      "うし",
+      "あさ",
+      "こえ",
+      "おに",
+      "くも"
+    ],
+    "explanation": "「うし」はひらがなで「うし」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_13",
+    "type": "language",
+    "question": "「うた」の読み方はどれですか？",
+    "answer": "うた",
+    "choices": [
+      "うた",
+      "こえ",
+      "うみ",
+      "きつね",
+      "くも"
+    ],
+    "explanation": "「うた」はひらがなで「うた」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_14",
+    "type": "language",
+    "question": "「うま」の読み方はどれですか？",
+    "answer": "うま",
+    "choices": [
+      "うま",
+      "かお",
+      "こえ",
+      "くも",
+      "あさ"
+    ],
+    "explanation": "「うま」はひらがなで「うま」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_15",
+    "type": "language",
+    "question": "「うで」の読み方はどれですか？",
+    "answer": "うで",
+    "choices": [
+      "うで",
+      "おに",
+      "かお",
+      "けむり",
+      "えき"
+    ],
+    "explanation": "「うで」はひらがなで「うで」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_16",
+    "type": "language",
+    "question": "「えき」の読み方はどれですか？",
+    "answer": "えき",
+    "choices": [
+      "えき",
+      "けむり",
+      "あさ",
+      "きつね",
+      "かお"
+    ],
+    "explanation": "「えき」はひらがなで「えき」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_17",
+    "type": "language",
+    "question": "「えん」の読み方はどれですか？",
+    "answer": "えん",
+    "choices": [
+      "えん",
+      "あさ",
+      "かお",
+      "こえ",
+      "けむり"
+    ],
+    "explanation": "「えん」はひらがなで「えん」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_18",
+    "type": "language",
+    "question": "「えび」の読み方はどれですか？",
+    "answer": "えび",
+    "choices": [
+      "えび",
+      "けむり",
+      "えき",
+      "かお",
+      "くも"
+    ],
+    "explanation": "「えび」はひらがなで「えび」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_19",
+    "type": "language",
+    "question": "「えだ」の読み方はどれですか？",
+    "answer": "えだ",
+    "choices": [
+      "えだ",
+      "こえ",
+      "えき",
+      "おに",
+      "くも"
+    ],
+    "explanation": "「えだ」はひらがなで「えだ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_20",
+    "type": "language",
+    "question": "「えほん」の読み方はどれですか？",
+    "answer": "えほん",
+    "choices": [
+      "えほん",
+      "かお",
+      "きつね",
+      "おに",
+      "あさ"
+    ],
+    "explanation": "「えほん」はひらがなで「えほん」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_21",
+    "type": "language",
+    "question": "「おに」の読み方はどれですか？",
+    "answer": "おに",
+    "choices": [
+      "おに",
+      "いぬ",
+      "くも",
+      "うみ",
+      "かお"
+    ],
+    "explanation": "「おに」はひらがなで「おに」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_22",
+    "type": "language",
+    "question": "「おと」の読み方はどれですか？",
+    "answer": "おと",
+    "choices": [
+      "おと",
+      "えき",
+      "きつね",
+      "いぬ",
+      "あさ"
+    ],
+    "explanation": "「おと」はひらがなで「おと」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_23",
+    "type": "language",
+    "question": "「おか」の読み方はどれですか？",
+    "answer": "おか",
+    "choices": [
+      "おか",
+      "いぬ",
+      "えき",
+      "くも",
+      "おに"
+    ],
+    "explanation": "「おか」はひらがなで「おか」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_24",
+    "type": "language",
+    "question": "「おはな」の読み方はどれですか？",
+    "answer": "おはな",
+    "choices": [
+      "おはな",
+      "くも",
+      "うみ",
+      "いぬ",
+      "きつね"
+    ],
+    "explanation": "「おはな」はひらがなで「おはな」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_25",
+    "type": "language",
+    "question": "「おやま」の読み方はどれですか？",
+    "answer": "おやま",
+    "choices": [
+      "おやま",
+      "いぬ",
+      "えき",
+      "うみ",
+      "おに"
+    ],
+    "explanation": "「おやま」はひらがなで「おやま」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_26",
+    "type": "language",
+    "question": "「かお」の読み方はどれですか？",
+    "answer": "かお",
+    "choices": [
+      "かお",
+      "こえ",
+      "えき",
+      "あさ",
+      "けむり"
+    ],
+    "explanation": "「かお」はひらがなで「かお」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_27",
+    "type": "language",
+    "question": "「かみ」の読み方はどれですか？",
+    "answer": "かみ",
+    "choices": [
+      "かみ",
+      "けむり",
+      "うみ",
+      "かお",
+      "きつね"
+    ],
+    "explanation": "「かみ」はひらがなで「かみ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_28",
+    "type": "language",
+    "question": "「かさ」の読み方はどれですか？",
+    "answer": "かさ",
+    "choices": [
+      "かさ",
+      "うみ",
+      "きつね",
+      "えき",
+      "くも"
+    ],
+    "explanation": "「かさ」はひらがなで「かさ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_29",
+    "type": "language",
+    "question": "「かぜ」の読み方はどれですか？",
+    "answer": "かぜ",
+    "choices": [
+      "かぜ",
+      "おに",
+      "こえ",
+      "あさ",
+      "きつね"
+    ],
+    "explanation": "「かぜ」はひらがなで「かぜ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_hiragana_30",
+    "type": "language",
+    "question": "「かめ」の読み方はどれですか？",
+    "answer": "かめ",
+    "choices": [
+      "かめ",
+      "えき",
+      "うみ",
+      "あさ",
+      "いぬ"
+    ],
+    "explanation": "「かめ」はひらがなで「かめ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_31",
+    "type": "language",
+    "question": "「いぬ」をカタカナで書くとどれですか？",
+    "answer": "イヌ",
+    "choices": [
+      "イヌ"
+    ],
+    "explanation": "「いぬ」はカタカナで「イヌ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_32",
+    "type": "language",
+    "question": "「ねこ」をカタカナで書くとどれですか？",
+    "answer": "ネコ",
+    "choices": [
+      "ネコ",
+      "ヘコ",
+      "ネモ",
+      "ネゴ"
+    ],
+    "explanation": "「ねこ」はカタカナで「ネコ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_33",
+    "type": "language",
+    "question": "「うさぎ」をカタカナで書くとどれですか？",
+    "answer": "ウサギ",
+    "choices": [
+      "ウサギ",
+      "ヲサギ",
+      "ウサカ"
+    ],
+    "explanation": "「うさぎ」はカタカナで「ウサギ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_34",
+    "type": "language",
+    "question": "「とり」をカタカナで書くとどれですか？",
+    "answer": "トリ",
+    "choices": [
+      "トリ",
+      "バリ",
+      "ドサ",
+      "バリ"
+    ],
+    "explanation": "「とり」はカタカナで「トリ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_35",
+    "type": "language",
+    "question": "「さかな」をカタカナで書くとどれですか？",
+    "answer": "サカナ",
+    "choices": [
+      "サカナ",
+      "アタア",
+      "タアナ",
+      "サカア"
+    ],
+    "explanation": "「さかな」はカタカナで「サカナ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_36",
+    "type": "language",
+    "question": "「らいおん」をカタカナで書くとどれですか？",
+    "answer": "ライオン",
+    "choices": [
+      "ライオン",
+      "ラリカソ",
+      "ラルオン",
+      "ライサソ",
+      "ライアツ"
+    ],
+    "explanation": "「らいおん」はカタカナで「ライオン」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_37",
+    "type": "language",
+    "question": "「ぞう」をカタカナで書くとどれですか？",
+    "answer": "ゾウ",
+    "choices": [
+      "ゾウ",
+      "アウ",
+      "ゾヲ"
+    ],
+    "explanation": "「ぞう」はカタカナで「ゾウ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_38",
+    "type": "language",
+    "question": "「きりん」をカタカナで書くとどれですか？",
+    "answer": "キリン",
+    "choices": [
+      "キリン",
+      "キアン",
+      "タリソ",
+      "キリツ"
+    ],
+    "explanation": "「きりん」はカタカナで「キリン」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_39",
+    "type": "language",
+    "question": "「ぶた」をカタカナで書くとどれですか？",
+    "answer": "ブタ",
+    "choices": [
+      "ブタ",
+      "タタ",
+      "アア"
+    ],
+    "explanation": "「ぶた」はカタカナで「ブタ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_40",
+    "type": "language",
+    "question": "「うし」をカタカナで書くとどれですか？",
+    "answer": "ウシ",
+    "choices": [
+      "ウシ",
+      "ワサ",
+      "ユシ"
+    ],
+    "explanation": "「うし」はカタカナで「ウシ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_41",
+    "type": "language",
+    "question": "「りんご」をカタカナで書くとどれですか？",
+    "answer": "リンゴ",
+    "choices": [
+      "リンゴ",
+      "サンゴ",
+      "サンゴ"
+    ],
+    "explanation": "「りんご」はカタカナで「リンゴ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_42",
+    "type": "language",
+    "question": "「ばなな」をカタカナで書くとどれですか？",
+    "answer": "バナナ",
+    "choices": [
+      "バナナ",
+      "アナナ",
+      "バタサ",
+      "バナア"
+    ],
+    "explanation": "「ばなな」はカタカナで「バナナ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_43",
+    "type": "language",
+    "question": "「みかん」をカタカナで書くとどれですか？",
+    "answer": "ミカン",
+    "choices": [
+      "ミカン",
+      "タカン",
+      "ミタシ",
+      "タカス"
+    ],
+    "explanation": "「みかん」はカタカナで「ミカン」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_44",
+    "type": "language",
+    "question": "「いちご」をカタカナで書くとどれですか？",
+    "answer": "イチゴ",
+    "choices": [
+      "イチゴ",
+      "イアゴ",
+      "ニサゴ",
+      "イタゴ"
+    ],
+    "explanation": "「いちご」はカタカナで「イチゴ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_45",
+    "type": "language",
+    "question": "「ぶどう」をカタカナで書くとどれですか？",
+    "answer": "ブドウ",
+    "choices": [
+      "ブドウ",
+      "ブサワ",
+      "カドヨ"
+    ],
+    "explanation": "「ぶどう」はカタカナで「ブドウ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_46",
+    "type": "language",
+    "question": "「ぱん」をカタカナで書くとどれですか？",
+    "answer": "パン",
+    "choices": [
+      "パン",
+      "サス",
+      "タツ"
+    ],
+    "explanation": "「ぱん」はカタカナで「パン」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_47",
+    "type": "language",
+    "question": "「けーき」をカタカナで書くとどれですか？",
+    "answer": "ケーキ",
+    "choices": [
+      "ケーキ",
+      "ケササ",
+      "アカキ"
+    ],
+    "explanation": "「けーき」はカタカナで「ケーキ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_48",
+    "type": "language",
+    "question": "「あいす」をカタカナで書くとどれですか？",
+    "answer": "アイス",
+    "choices": [
+      "アイス",
+      "アニス"
+    ],
+    "explanation": "「あいす」はカタカナで「アイス」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_49",
+    "type": "language",
+    "question": "「じゅーす」をカタカナで書くとどれですか？",
+    "answer": "ジュース",
+    "choices": [
+      "ジュース",
+      "サュータ",
+      "ジューア"
+    ],
+    "explanation": "「じゅーす」はカタカナで「ジュース」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_50",
+    "type": "language",
+    "question": "「みるく」をカタカナで書くとどれですか？",
+    "answer": "ミルク",
+    "choices": [
+      "ミルク",
+      "アルク"
+    ],
+    "explanation": "「みるく」はカタカナで「ミルク」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_51",
+    "type": "language",
+    "question": "「ぼーる」をカタカナで書くとどれですか？",
+    "answer": "ボール",
+    "choices": [
+      "ボール",
+      "サール",
+      "カール"
+    ],
+    "explanation": "「ぼーる」はカタカナで「ボール」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_52",
+    "type": "language",
+    "question": "「らじお」をカタカナで書くとどれですか？",
+    "answer": "ラジオ",
+    "choices": [
+      "ラジオ",
+      "ラタオ",
+      "ラカオ",
+      "ラアオ"
+    ],
+    "explanation": "「らじお」はカタカナで「ラジオ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_53",
+    "type": "language",
+    "question": "「てれび」をカタカナで書くとどれですか？",
+    "answer": "テレビ",
+    "choices": [
+      "テレビ",
+      "カレタ",
+      "カレビ"
+    ],
+    "explanation": "「てれび」はカタカナで「テレビ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_54",
+    "type": "language",
+    "question": "「でんわ」をカタカナで書くとどれですか？",
+    "answer": "デンワ",
+    "choices": [
+      "デンワ",
+      "カンワ",
+      "アンワ"
+    ],
+    "explanation": "「でんわ」はカタカナで「デンワ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_55",
+    "type": "language",
+    "question": "「かめら」をカタカナで書くとどれですか？",
+    "answer": "カメラ",
+    "choices": [
+      "カメラ",
+      "タメタ",
+      "サメラ",
+      "サメラ"
+    ],
+    "explanation": "「かめら」はカタカナで「カメラ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_56",
+    "type": "language",
+    "question": "「たくしー」をカタカナで書くとどれですか？",
+    "answer": "タクシー",
+    "choices": [
+      "タクシー",
+      "タササア",
+      "カクカー",
+      "タアシー"
+    ],
+    "explanation": "「たくしー」はカタカナで「タクシー」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_57",
+    "type": "language",
+    "question": "「ばす」をカタカナで書くとどれですか？",
+    "answer": "バス",
+    "choices": [
+      "バス",
+      "サス"
+    ],
+    "explanation": "「ばす」はカタカナで「バス」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_58",
+    "type": "language",
+    "question": "「でんしゃ」をカタカナで書くとどれですか？",
+    "answer": "デンシャ",
+    "choices": [
+      "デンシャ",
+      "カンサャ",
+      "デソシャ",
+      "デシサャ"
+    ],
+    "explanation": "「でんしゃ」はカタカナで「デンシャ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_59",
+    "type": "language",
+    "question": "「ひこうき」をカタカナで書くとどれですか？",
+    "answer": "ヒコウキ",
+    "choices": [
+      "ヒコウキ",
+      "ヒコワキ"
+    ],
+    "explanation": "「ひこうき」はカタカナで「ヒコウキ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_katakana_60",
+    "type": "language",
+    "question": "「しっぷ」をカタカナで書くとどれですか？",
+    "answer": "シップ",
+    "choices": [
+      "シップ",
+      "シタプ",
+      "シッア"
+    ],
+    "explanation": "「しっぷ」はカタカナで「シップ」と書きます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_61",
+    "type": "language",
+    "question": "「ねこ」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「ねこ」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_62",
+    "type": "language",
+    "question": "「いぬ」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「いぬ」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_63",
+    "type": "language",
+    "question": "「うさぎ」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「うさぎ」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_64",
+    "type": "language",
+    "question": "「らいおん」は何文字ですか？",
+    "answer": "4",
+    "choices": [
+      "4",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "explanation": "「らいおん」は4文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_65",
+    "type": "language",
+    "question": "「ぞう」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「ぞう」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_66",
+    "type": "language",
+    "question": "「りんご」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「りんご」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_67",
+    "type": "language",
+    "question": "「ばなな」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「ばなな」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_68",
+    "type": "language",
+    "question": "「いちご」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「いちご」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_69",
+    "type": "language",
+    "question": "「ぶどう」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「ぶどう」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_70",
+    "type": "language",
+    "question": "「みかん」は何文字ですか？",
+    "answer": "3",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "「みかん」は3文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_71",
+    "type": "language",
+    "question": "「はな」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「はな」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_72",
+    "type": "language",
+    "question": "「き」は何文字ですか？",
+    "answer": "1",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「き」は1文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_73",
+    "type": "language",
+    "question": "「やま」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「やま」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_74",
+    "type": "language",
+    "question": "「うみ」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「うみ」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_75",
+    "type": "language",
+    "question": "「かわ」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「かわ」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_76",
+    "type": "language",
+    "question": "「そら」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「そら」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_77",
+    "type": "language",
+    "question": "「つき」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「つき」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_78",
+    "type": "language",
+    "question": "「ほし」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「ほし」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_79",
+    "type": "language",
+    "question": "「ひ」は何文字ですか？",
+    "answer": "1",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「ひ」は1文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_count_80",
+    "type": "language",
+    "question": "「ゆき」は何文字ですか？",
+    "answer": "2",
+    "choices": [
+      "2",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "「ゆき」は2文字です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_81",
+    "type": "language",
+    "question": "「おおきい」の反対の意味の言葉はどれですか？",
+    "answer": "ちいさい",
+    "choices": [
+      "ちいさい",
+      "つめたい",
+      "ひくい",
+      "みじかい",
+      "よわい"
+    ],
+    "explanation": "「おおきい」の反対は「ちいさい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_82",
+    "type": "language",
+    "question": "「たかい」の反対の意味の言葉はどれですか？",
+    "answer": "ひくい",
+    "choices": [
+      "ひくい",
+      "かるい",
+      "くらい",
+      "ちいさい",
+      "おそい"
+    ],
+    "explanation": "「たかい」の反対は「ひくい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_83",
+    "type": "language",
+    "question": "「ながい」の反対の意味の言葉はどれですか？",
+    "answer": "みじかい",
+    "choices": [
+      "みじかい",
+      "おそい",
+      "つめたい",
+      "ひくい",
+      "くらい"
+    ],
+    "explanation": "「ながい」の反対は「みじかい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_84",
+    "type": "language",
+    "question": "「おもい」の反対の意味の言葉はどれですか？",
+    "answer": "かるい",
+    "choices": [
+      "かるい",
+      "つめたい",
+      "ちいさい",
+      "ひくい",
+      "おそい"
+    ],
+    "explanation": "「おもい」の反対は「かるい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_85",
+    "type": "language",
+    "question": "「あつい」の反対の意味の言葉はどれですか？",
+    "answer": "つめたい",
+    "choices": [
+      "つめたい",
+      "かるい",
+      "ちいさい",
+      "くらい",
+      "ひくい"
+    ],
+    "explanation": "「あつい」の反対は「つめたい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_86",
+    "type": "language",
+    "question": "「はやい」の反対の意味の言葉はどれですか？",
+    "answer": "おそい",
+    "choices": [
+      "おそい",
+      "みじかい",
+      "つめたい",
+      "ひくい",
+      "くらい"
+    ],
+    "explanation": "「はやい」の反対は「おそい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_87",
+    "type": "language",
+    "question": "「あかるい」の反対の意味の言葉はどれですか？",
+    "answer": "くらい",
+    "choices": [
+      "くらい",
+      "よわい",
+      "みじかい",
+      "つめたい",
+      "ちいさい"
+    ],
+    "explanation": "「あかるい」の反対は「くらい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_88",
+    "type": "language",
+    "question": "「つよい」の反対の意味の言葉はどれですか？",
+    "answer": "よわい",
+    "choices": [
+      "よわい",
+      "かるい",
+      "ひくい",
+      "おそい",
+      "つめたい"
+    ],
+    "explanation": "「つよい」の反対は「よわい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_89",
+    "type": "language",
+    "question": "「あたらしい」の反対の意味の言葉はどれですか？",
+    "answer": "ふるい",
+    "choices": [
+      "ふるい",
+      "みじかい",
+      "くらい",
+      "おそい",
+      "かるい"
+    ],
+    "explanation": "「あたらしい」の反対は「ふるい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_90",
+    "type": "language",
+    "question": "「きれい」の反対の意味の言葉はどれですか？",
+    "answer": "きたない",
+    "choices": [
+      "きたない",
+      "つめたい",
+      "ちいさい",
+      "かるい",
+      "くらい"
+    ],
+    "explanation": "「きれい」の反対は「きたない」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_91",
+    "type": "language",
+    "question": "「しずか」の反対の意味の言葉はどれですか？",
+    "answer": "うるさい",
+    "choices": [
+      "うるさい",
+      "ひくい",
+      "よわい",
+      "みじかい",
+      "おそい"
+    ],
+    "explanation": "「しずか」の反対は「うるさい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_92",
+    "type": "language",
+    "question": "「やすい」の反対の意味の言葉はどれですか？",
+    "answer": "たかい",
+    "choices": [
+      "たかい",
+      "よわい",
+      "つめたい",
+      "かるい",
+      "ちいさい"
+    ],
+    "explanation": "「やすい」の反対は「たかい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_93",
+    "type": "language",
+    "question": "「ひろい」の反対の意味の言葉はどれですか？",
+    "answer": "せまい",
+    "choices": [
+      "せまい",
+      "かるい",
+      "ちいさい",
+      "つめたい",
+      "ひくい"
+    ],
+    "explanation": "「ひろい」の反対は「せまい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_94",
+    "type": "language",
+    "question": "「かたい」の反対の意味の言葉はどれですか？",
+    "answer": "やわらかい",
+    "choices": [
+      "やわらかい",
+      "みじかい",
+      "おそい",
+      "よわい",
+      "ひくい"
+    ],
+    "explanation": "「かたい」の反対は「やわらかい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_95",
+    "type": "language",
+    "question": "「あまい」の反対の意味の言葉はどれですか？",
+    "answer": "からい",
+    "choices": [
+      "からい",
+      "かるい",
+      "ひくい",
+      "おそい",
+      "つめたい"
+    ],
+    "explanation": "「あまい」の反対は「からい」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_96",
+    "type": "language",
+    "question": "「まえ」の反対の意味の言葉はどれですか？",
+    "answer": "うしろ",
+    "choices": [
+      "うしろ",
+      "くらい",
+      "かるい",
+      "おそい",
+      "ひくい"
+    ],
+    "explanation": "「まえ」の反対は「うしろ」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_97",
+    "type": "language",
+    "question": "「うえ」の反対の意味の言葉はどれですか？",
+    "answer": "した",
+    "choices": [
+      "した",
+      "つめたい",
+      "ちいさい",
+      "かるい",
+      "ひくい"
+    ],
+    "explanation": "「うえ」の反対は「した」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_98",
+    "type": "language",
+    "question": "「みぎ」の反対の意味の言葉はどれですか？",
+    "answer": "ひだり",
+    "choices": [
+      "ひだり",
+      "おそい",
+      "みじかい",
+      "ちいさい",
+      "つめたい"
+    ],
+    "explanation": "「みぎ」の反対は「ひだり」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_99",
+    "type": "language",
+    "question": "「はじめ」の反対の意味の言葉はどれですか？",
+    "answer": "おわり",
+    "choices": [
+      "おわり",
+      "つめたい",
+      "よわい",
+      "みじかい",
+      "おそい"
+    ],
+    "explanation": "「はじめ」の反対は「おわり」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_opposite_100",
+    "type": "language",
+    "question": "「あさ」の反対の意味の言葉はどれですか？",
+    "answer": "よる",
+    "choices": [
+      "よる",
+      "ひくい",
+      "みじかい",
+      "つめたい",
+      "くらい"
+    ],
+    "explanation": "「あさ」の反対は「よる」です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_101",
+    "type": "language",
+    "question": "「かき」と同じ音で始まる言葉はどれですか？",
+    "answer": "がき",
+    "choices": [
+      "がき",
+      "かぎ",
+      "かし",
+      "かけ"
+    ],
+    "explanation": "「かき」と「がき」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_102",
+    "type": "language",
+    "question": "「はし」と同じ音で始まる言葉はどれですか？",
+    "answer": "ばし",
+    "choices": [
+      "ばし",
+      "はじ",
+      "はぜ",
+      "はそ"
+    ],
+    "explanation": "「はし」と「ばし」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_103",
+    "type": "language",
+    "question": "「ねこ」と同じ音で始まる言葉はどれですか？",
+    "answer": "べこ",
+    "choices": [
+      "べこ",
+      "ねご",
+      "ねろ",
+      "ねの"
+    ],
+    "explanation": "「ねこ」と「べこ」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_104",
+    "type": "language",
+    "question": "「そら」と同じ音で始まる言葉はどれですか？",
+    "answer": "とら",
+    "choices": [
+      "とら",
+      "そば",
+      "そが",
+      "そま"
+    ],
+    "explanation": "「そら」と「とら」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_105",
+    "type": "language",
+    "question": "「いけ」と同じ音で始まる言葉はどれですか？",
+    "answer": "うけ",
+    "choices": [
+      "うけ",
+      "いげ",
+      "いね",
+      "いで"
+    ],
+    "explanation": "「いけ」と「うけ」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_106",
+    "type": "language",
+    "question": "「みず」と同じ音で始まる言葉はどれですか？",
+    "answer": "にず",
+    "choices": [
+      "にず",
+      "みじ",
+      "みぞ",
+      "みづ"
+    ],
+    "explanation": "「みず」と「にず」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_107",
+    "type": "language",
+    "question": "「はな」と同じ音で始まる言葉はどれですか？",
+    "answer": "ばな",
+    "choices": [
+      "ばな",
+      "はま",
+      "はが",
+      "はだ"
+    ],
+    "explanation": "「はな」と「ばな」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_108",
+    "type": "language",
+    "question": "「やま」と同じ音で始まる言葉はどれですか？",
+    "answer": "ばま",
+    "choices": [
+      "ばま",
+      "やば",
+      "やが",
+      "やだ"
+    ],
+    "explanation": "「やま」と「ばま」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_109",
+    "type": "language",
+    "question": "「とり」と同じ音で始まる言葉はどれですか？",
+    "answer": "どり",
+    "choices": [
+      "どり",
+      "とぎ",
+      "とび",
+      "とじ"
+    ],
+    "explanation": "「とり」と「どり」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_110",
+    "type": "language",
+    "question": "「かぜ」と同じ音で始まる言葉はどれですか？",
+    "answer": "がぜ",
+    "choices": [
+      "がぜ",
+      "かべ",
+      "かで",
+      "かめ"
+    ],
+    "explanation": "「かぜ」と「がぜ」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_111",
+    "type": "language",
+    "question": "「ゆき」と同じ音で始まる言葉はどれですか？",
+    "answer": "つき",
+    "choices": [
+      "つき",
+      "ゆぎ",
+      "ゆび",
+      "ゆじ"
+    ],
+    "explanation": "「ゆき」と「つき」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_112",
+    "type": "language",
+    "question": "「みち」と同じ音で始まる言葉はどれですか？",
+    "answer": "にち",
+    "choices": [
+      "にち",
+      "みぢ",
+      "みし",
+      "みび"
+    ],
+    "explanation": "「みち」と「にち」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_113",
+    "type": "language",
+    "question": "「くも」と同じ音で始まる言葉はどれですか？",
+    "answer": "ぐも",
+    "choices": [
+      "ぐも",
+      "くぼ",
+      "くご",
+      "くど"
+    ],
+    "explanation": "「くも」と「ぐも」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_114",
+    "type": "language",
+    "question": "「ひと」と同じ音で始まる言葉はどれですか？",
+    "answer": "びと",
+    "choices": [
+      "びと",
+      "ひど",
+      "ひご",
+      "ひぞ"
+    ],
+    "explanation": "「ひと」と「びと」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_115",
+    "type": "language",
+    "question": "「もり」と同じ音で始まる言葉はどれですか？",
+    "answer": "ぼり",
+    "choices": [
+      "ぼり",
+      "もぎ",
+      "もび",
+      "もじ"
+    ],
+    "explanation": "「もり」と「ぼり」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_116",
+    "type": "language",
+    "question": "「きつね」と同じ音で始まる言葉はどれですか？",
+    "answer": "ぎつね",
+    "choices": [
+      "ぎつね",
+      "きづね",
+      "きすね",
+      "きつめ"
+    ],
+    "explanation": "「きつね」と「ぎつね」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_117",
+    "type": "language",
+    "question": "「うみ」と同じ音で始まる言葉はどれですか？",
+    "answer": "うび",
+    "choices": [
+      "うび",
+      "うぎ",
+      "うじ",
+      "うに"
+    ],
+    "explanation": "「うみ」と「うび」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_118",
+    "type": "language",
+    "question": "「つき」と同じ音で始まる言葉はどれですか？",
+    "answer": "づき",
+    "choices": [
+      "づき",
+      "つぎ",
+      "つび",
+      "つじ"
+    ],
+    "explanation": "「つき」と「づき」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_119",
+    "type": "language",
+    "question": "「かみ」と同じ音で始まる言葉はどれですか？",
+    "answer": "がみ",
+    "choices": [
+      "がみ",
+      "かび",
+      "かぎ",
+      "かじ"
+    ],
+    "explanation": "「かみ」と「がみ」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_sound_120",
+    "type": "language",
+    "question": "「ほし」と同じ音で始まる言葉はどれですか？",
+    "answer": "ぼし",
+    "choices": [
+      "ぼし",
+      "ほじ",
+      "ほぎ",
+      "ほび"
+    ],
+    "explanation": "「ほし」と「ぼし」は同じ音で始まります",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_121",
+    "type": "language",
+    "question": "いぬの鳴き声を表す言葉はどれですか？",
+    "answer": "わんわん",
+    "choices": [
+      "わんわん",
+      "にゃんにゃん",
+      "もーもー",
+      "ぴーぴー",
+      "こけこっこー"
+    ],
+    "explanation": "いぬの鳴き声は「わんわん」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_122",
+    "type": "language",
+    "question": "ねこの鳴き声を表す言葉はどれですか？",
+    "answer": "にゃんにゃん",
+    "choices": [
+      "にゃんにゃん",
+      "わんわん",
+      "もーもー",
+      "ぴーぴー",
+      "こけこっこー"
+    ],
+    "explanation": "ねこの鳴き声は「にゃんにゃん」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_123",
+    "type": "language",
+    "question": "うしの鳴き声を表す言葉はどれですか？",
+    "answer": "もーもー",
+    "choices": [
+      "もーもー",
+      "わんわん",
+      "にゃんにゃん",
+      "ぴーぴー",
+      "こけこっこー"
+    ],
+    "explanation": "うしの鳴き声は「もーもー」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_124",
+    "type": "language",
+    "question": "とりの鳴き声を表す言葉はどれですか？",
+    "answer": "ぴーぴー",
+    "choices": [
+      "ぴーぴー",
+      "わんわん",
+      "にゃんにゃん",
+      "もーもー",
+      "こけこっこー"
+    ],
+    "explanation": "とりの鳴き声は「ぴーぴー」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_125",
+    "type": "language",
+    "question": "にわとりの鳴き声を表す言葉はどれですか？",
+    "answer": "こけこっこー",
+    "choices": [
+      "こけこっこー",
+      "わんわん",
+      "にゃんにゃん",
+      "もーもー",
+      "ぴーぴー"
+    ],
+    "explanation": "にわとりの鳴き声は「こけこっこー」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_126",
+    "type": "language",
+    "question": "雨の音を表す言葉はどれですか？",
+    "answer": "ぱらぱら",
+    "choices": [
+      "ぱらぱら",
+      "どんどん",
+      "ぺらぺら",
+      "がらがら",
+      "ころころ"
+    ],
+    "explanation": "雨の音は「ぱらぱら」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_127",
+    "type": "language",
+    "question": "太鼓の音を表す言葉はどれですか？",
+    "answer": "どんどん",
+    "choices": [
+      "どんどん",
+      "ぱらぱら",
+      "ぺらぺら",
+      "がらがら",
+      "ころころ"
+    ],
+    "explanation": "太鼓の音は「どんどん」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_128",
+    "type": "language",
+    "question": "紙の音を表す言葉はどれですか？",
+    "answer": "ぺらぺら",
+    "choices": [
+      "ぺらぺら",
+      "ぱらぱら",
+      "どんどん",
+      "がらがら",
+      "ころころ"
+    ],
+    "explanation": "紙の音は「ぺらぺら」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_129",
+    "type": "language",
+    "question": "石の音を表す言葉はどれですか？",
+    "answer": "がらがら",
+    "choices": [
+      "がらがら",
+      "ぱらぱら",
+      "どんどん",
+      "ぺらぺら",
+      "ころころ"
+    ],
+    "explanation": "石の音は「がらがら」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_130",
+    "type": "language",
+    "question": "玉の音を表す言葉はどれですか？",
+    "answer": "ころころ",
+    "choices": [
+      "ころころ",
+      "ぱらぱら",
+      "どんどん",
+      "ぺらぺら",
+      "がらがら"
+    ],
+    "explanation": "玉の音は「ころころ」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_131",
+    "type": "language",
+    "question": "きらきら光るを表す言葉はどれですか？",
+    "answer": "きらきら",
+    "choices": [
+      "きらきら",
+      "ぴかぴか",
+      "ぶるぶる",
+      "ぐるぐる",
+      "ふわふわ"
+    ],
+    "explanation": "きらきら光るは「きらきら」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_132",
+    "type": "language",
+    "question": "ぴかぴか光るを表す言葉はどれですか？",
+    "answer": "ぴかぴか",
+    "choices": [
+      "ぴかぴか",
+      "きらきら",
+      "ぶるぶる",
+      "ぐるぐる",
+      "ふわふわ"
+    ],
+    "explanation": "ぴかぴか光るは「ぴかぴか」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_133",
+    "type": "language",
+    "question": "寒くて震えるを表す言葉はどれですか？",
+    "answer": "ぶるぶる",
+    "choices": [
+      "ぶるぶる",
+      "きらきら",
+      "ぴかぴか",
+      "ぐるぐる",
+      "ふわふわ"
+    ],
+    "explanation": "寒くて震えるは「ぶるぶる」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_134",
+    "type": "language",
+    "question": "回転するを表す言葉はどれですか？",
+    "answer": "ぐるぐる",
+    "choices": [
+      "ぐるぐる",
+      "きらきら",
+      "ぴかぴか",
+      "ぶるぶる",
+      "ふわふわ"
+    ],
+    "explanation": "回転するは「ぐるぐる」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_135",
+    "type": "language",
+    "question": "やわらかいを表す言葉はどれですか？",
+    "answer": "ふわふわ",
+    "choices": [
+      "ふわふわ",
+      "きらきら",
+      "ぴかぴか",
+      "ぶるぶる",
+      "ぐるぐる"
+    ],
+    "explanation": "やわらかいは「ふわふわ」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_136",
+    "type": "language",
+    "question": "歩く音を表す言葉はどれですか？",
+    "answer": "とことこ",
+    "choices": [
+      "とことこ",
+      "ぺたぺた",
+      "ぱたぱた",
+      "てくてく",
+      "ごとごと"
+    ],
+    "explanation": "歩く音は「とことこ」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_137",
+    "type": "language",
+    "question": "足音を表す言葉はどれですか？",
+    "answer": "ぺたぺた",
+    "choices": [
+      "ぺたぺた",
+      "とことこ",
+      "ぱたぱた",
+      "てくてく",
+      "ごとごと"
+    ],
+    "explanation": "足音は「ぺたぺた」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_138",
+    "type": "language",
+    "question": "羽音を表す言葉はどれですか？",
+    "answer": "ぱたぱた",
+    "choices": [
+      "ぱたぱた",
+      "とことこ",
+      "ぺたぺた",
+      "てくてく",
+      "ごとごと"
+    ],
+    "explanation": "羽音は「ぱたぱた」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_139",
+    "type": "language",
+    "question": "散歩するを表す言葉はどれですか？",
+    "answer": "てくてく",
+    "choices": [
+      "てくてく",
+      "とことこ",
+      "ぺたぺた",
+      "ぱたぱた",
+      "ごとごと"
+    ],
+    "explanation": "散歩するは「てくてく」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_onomatopoeia_140",
+    "type": "language",
+    "question": "電車の音を表す言葉はどれですか？",
+    "answer": "ごとごと",
+    "choices": [
+      "ごとごと",
+      "とことこ",
+      "ぺたぺた",
+      "ぱたぱた",
+      "てくてく"
+    ],
+    "explanation": "電車の音は「ごとごと」と表現します",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_141",
+    "type": "language",
+    "question": "「春」の読み方はどれですか？",
+    "answer": "はる",
+    "choices": [
+      "はる",
+      "あき",
+      "なつ",
+      "ふゆ",
+      "ゆき"
+    ],
+    "explanation": "「春」は「はる」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_142",
+    "type": "language",
+    "question": "「夏」の読み方はどれですか？",
+    "answer": "なつ",
+    "choices": [
+      "なつ",
+      "はる",
+      "あき",
+      "ふゆ",
+      "ゆき"
+    ],
+    "explanation": "「夏」は「なつ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_143",
+    "type": "language",
+    "question": "「秋」の読み方はどれですか？",
+    "answer": "あき",
+    "choices": [
+      "あき",
+      "はる",
+      "なつ",
+      "ふゆ",
+      "ゆき"
+    ],
+    "explanation": "「秋」は「あき」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_144",
+    "type": "language",
+    "question": "「冬」の読み方はどれですか？",
+    "answer": "ふゆ",
+    "choices": [
+      "ふゆ",
+      "はる",
+      "なつ",
+      "あき",
+      "ゆき"
+    ],
+    "explanation": "「冬」は「ふゆ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_145",
+    "type": "language",
+    "question": "「桜」の読み方はどれですか？",
+    "answer": "さくら",
+    "choices": [
+      "さくら",
+      "もみじ",
+      "ゆき",
+      "うみ",
+      "やま"
+    ],
+    "explanation": "「桜」は「さくら」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_146",
+    "type": "language",
+    "question": "「雪」の読み方はどれですか？",
+    "answer": "ゆき",
+    "choices": [
+      "ゆき",
+      "はな",
+      "みず",
+      "ひ",
+      "つき"
+    ],
+    "explanation": "「雪」は「ゆき」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_147",
+    "type": "language",
+    "question": "「花」の読み方はどれですか？",
+    "answer": "はな",
+    "choices": [
+      "はな",
+      "き",
+      "くさ",
+      "いし",
+      "つち"
+    ],
+    "explanation": "「花」は「はな」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_148",
+    "type": "language",
+    "question": "「葉」の読み方はどれですか？",
+    "answer": "は",
+    "choices": [
+      "は",
+      "え",
+      "み",
+      "ね",
+      "き"
+    ],
+    "explanation": "「葉」は「は」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_149",
+    "type": "language",
+    "question": "「風」の読み方はどれですか？",
+    "answer": "かぜ",
+    "choices": [
+      "かぜ",
+      "あめ",
+      "ひ",
+      "くも",
+      "そら"
+    ],
+    "explanation": "「風」は「かぜ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_150",
+    "type": "language",
+    "question": "「雨」の読み方はどれですか？",
+    "answer": "あめ",
+    "choices": [
+      "あめ",
+      "かぜ",
+      "ひ",
+      "くも",
+      "そら"
+    ],
+    "explanation": "「雨」は「あめ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_151",
+    "type": "language",
+    "question": "「太陽」の読み方はどれですか？",
+    "answer": "たいよう",
+    "choices": [
+      "たいよう",
+      "つき",
+      "ほし",
+      "そら",
+      "くも"
+    ],
+    "explanation": "「太陽」は「たいよう」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_152",
+    "type": "language",
+    "question": "「月」の読み方はどれですか？",
+    "answer": "つき",
+    "choices": [
+      "つき",
+      "ひ",
+      "ほし",
+      "そら",
+      "くも"
+    ],
+    "explanation": "「月」は「つき」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_153",
+    "type": "language",
+    "question": "「星」の読み方はどれですか？",
+    "answer": "ほし",
+    "choices": [
+      "ほし",
+      "つき",
+      "ひ",
+      "そら",
+      "くも"
+    ],
+    "explanation": "「星」は「ほし」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_154",
+    "type": "language",
+    "question": "「空」の読み方はどれですか？",
+    "answer": "そら",
+    "choices": [
+      "そら",
+      "うみ",
+      "やま",
+      "かわ",
+      "もり"
+    ],
+    "explanation": "「空」は「そら」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_155",
+    "type": "language",
+    "question": "「海」の読み方はどれですか？",
+    "answer": "うみ",
+    "choices": [
+      "うみ",
+      "そら",
+      "やま",
+      "かわ",
+      "もり"
+    ],
+    "explanation": "「海」は「うみ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_156",
+    "type": "language",
+    "question": "「山」の読み方はどれですか？",
+    "answer": "やま",
+    "choices": [
+      "やま",
+      "うみ",
+      "そら",
+      "かわ",
+      "もり"
+    ],
+    "explanation": "「山」は「やま」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_157",
+    "type": "language",
+    "question": "「川」の読み方はどれですか？",
+    "answer": "かわ",
+    "choices": [
+      "かわ",
+      "うみ",
+      "やま",
+      "そら",
+      "もり"
+    ],
+    "explanation": "「川」は「かわ」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_158",
+    "type": "language",
+    "question": "「森」の読み方はどれですか？",
+    "answer": "もり",
+    "choices": [
+      "もり",
+      "うみ",
+      "やま",
+      "かわ",
+      "そら"
+    ],
+    "explanation": "「森」は「もり」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_159",
+    "type": "language",
+    "question": "「虫」の読み方はどれですか？",
+    "answer": "むし",
+    "choices": [
+      "むし",
+      "とり",
+      "さかな",
+      "はな",
+      "き"
+    ],
+    "explanation": "「虫」は「むし」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_season_160",
+    "type": "language",
+    "question": "「鳥」の読み方はどれですか？",
+    "answer": "とり",
+    "choices": [
+      "とり",
+      "むし",
+      "さかな",
+      "はな",
+      "き"
+    ],
+    "explanation": "「鳥」は「とり」と読みます",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_161",
+    "type": "language",
+    "question": "動物の仲間はどれですか？",
+    "answer": "いぬ",
+    "choices": [
+      "いぬ",
+      "りんご",
+      "ほん",
+      "くつ",
+      "はな"
+    ],
+    "explanation": "「いぬ」は動物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_162",
+    "type": "language",
+    "question": "動物の仲間はどれですか？",
+    "answer": "ねこ",
+    "choices": [
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "ぼうし",
+      "き"
+    ],
+    "explanation": "「ねこ」は動物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_163",
+    "type": "language",
+    "question": "食べ物の仲間はどれですか？",
+    "answer": "りんご",
+    "choices": [
+      "りんご",
+      "いぬ",
+      "ほん",
+      "くつ",
+      "はな"
+    ],
+    "explanation": "「りんご」は食べ物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_164",
+    "type": "language",
+    "question": "食べ物の仲間はどれですか？",
+    "answer": "ばなな",
+    "choices": [
+      "ばなな",
+      "ねこ",
+      "えんぴつ",
+      "ぼうし",
+      "き"
+    ],
+    "explanation": "「ばなな」は食べ物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_165",
+    "type": "language",
+    "question": "乗り物の仲間はどれですか？",
+    "answer": "でんしゃ",
+    "choices": [
+      "でんしゃ",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「でんしゃ」は乗り物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_166",
+    "type": "language",
+    "question": "乗り物の仲間はどれですか？",
+    "answer": "ひこうき",
+    "choices": [
+      "ひこうき",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「ひこうき」は乗り物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_167",
+    "type": "language",
+    "question": "身体の仲間はどれですか？",
+    "answer": "あたま",
+    "choices": [
+      "あたま",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「あたま」は身体の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_168",
+    "type": "language",
+    "question": "身体の仲間はどれですか？",
+    "answer": "て",
+    "choices": [
+      "て",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「て」は身体の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_169",
+    "type": "language",
+    "question": "色の仲間はどれですか？",
+    "answer": "あか",
+    "choices": [
+      "あか",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「あか」は色の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_170",
+    "type": "language",
+    "question": "色の仲間はどれですか？",
+    "answer": "あお",
+    "choices": [
+      "あお",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「あお」は色の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_171",
+    "type": "language",
+    "question": "家族の仲間はどれですか？",
+    "answer": "おかあさん",
+    "choices": [
+      "おかあさん",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「おかあさん」は家族の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_172",
+    "type": "language",
+    "question": "家族の仲間はどれですか？",
+    "answer": "おとうさん",
+    "choices": [
+      "おとうさん",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「おとうさん」は家族の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_173",
+    "type": "language",
+    "question": "学校の仲間はどれですか？",
+    "answer": "せんせい",
+    "choices": [
+      "せんせい",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「せんせい」は学校の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_174",
+    "type": "language",
+    "question": "学校の仲間はどれですか？",
+    "answer": "きょうしつ",
+    "choices": [
+      "きょうしつ",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「きょうしつ」は学校の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_175",
+    "type": "language",
+    "question": "遊びの仲間はどれですか？",
+    "answer": "ぼーる",
+    "choices": [
+      "ぼーる",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「ぼーる」は遊びの仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_176",
+    "type": "language",
+    "question": "遊びの仲間はどれですか？",
+    "answer": "おもちゃ",
+    "choices": [
+      "おもちゃ",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「おもちゃ」は遊びの仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_177",
+    "type": "language",
+    "question": "天気の仲間はどれですか？",
+    "answer": "はれ",
+    "choices": [
+      "はれ",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "はな"
+    ],
+    "explanation": "「はれ」は天気の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_178",
+    "type": "language",
+    "question": "天気の仲間はどれですか？",
+    "answer": "あめ",
+    "choices": [
+      "あめ",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "き"
+    ],
+    "explanation": "「あめ」は天気の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_179",
+    "type": "language",
+    "question": "植物の仲間はどれですか？",
+    "answer": "はな",
+    "choices": [
+      "はな",
+      "いぬ",
+      "りんご",
+      "ほん",
+      "くつ"
+    ],
+    "explanation": "「はな」は植物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_category_180",
+    "type": "language",
+    "question": "植物の仲間はどれですか？",
+    "answer": "き",
+    "choices": [
+      "き",
+      "ねこ",
+      "みかん",
+      "えんぴつ",
+      "ぼうし"
+    ],
+    "explanation": "「き」は植物の仲間です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_181",
+    "type": "language",
+    "question": "わたし（　）がっこうへいきますの（　）に入る言葉はどれですか？",
+    "answer": "は",
+    "choices": [
+      "は",
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「は」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_182",
+    "type": "language",
+    "question": "ほん（　）よみますの（　）に入る言葉はどれですか？",
+    "answer": "を",
+    "choices": [
+      "を",
+      "は",
+      "が",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「を」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_183",
+    "type": "language",
+    "question": "がっこう（　）べんきょうしますの（　）に入る言葉はどれですか？",
+    "answer": "で",
+    "choices": [
+      "で",
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "explanation": "この文では「で」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_184",
+    "type": "language",
+    "question": "おともだち（　）あそびますの（　）に入る言葉はどれですか？",
+    "answer": "と",
+    "choices": [
+      "と",
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "explanation": "この文では「と」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_185",
+    "type": "language",
+    "question": "おうち（　）かえりますの（　）に入る言葉はどれですか？",
+    "answer": "に",
+    "choices": [
+      "に",
+      "は",
+      "が",
+      "を",
+      "で"
+    ],
+    "explanation": "この文では「に」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_186",
+    "type": "language",
+    "question": "ねこ（　）かわいいですの（　）に入る言葉はどれですか？",
+    "answer": "が",
+    "choices": [
+      "が",
+      "は",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「が」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_187",
+    "type": "language",
+    "question": "えんぴつ（　）かきますの（　）に入る言葉はどれですか？",
+    "answer": "で",
+    "choices": [
+      "で",
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "explanation": "この文では「で」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_188",
+    "type": "language",
+    "question": "りんご（　）たべますの（　）に入る言葉はどれですか？",
+    "answer": "を",
+    "choices": [
+      "を",
+      "は",
+      "が",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「を」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_189",
+    "type": "language",
+    "question": "あした（　）えんそくですの（　）に入る言葉はどれですか？",
+    "answer": "は",
+    "choices": [
+      "は",
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「は」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_190",
+    "type": "language",
+    "question": "こうえん（　）いきますの（　）に入る言葉はどれですか？",
+    "answer": "に",
+    "choices": [
+      "に",
+      "は",
+      "が",
+      "を",
+      "で"
+    ],
+    "explanation": "この文では「に」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_191",
+    "type": "language",
+    "question": "いぬ（　）はしりますの（　）に入る言葉はどれですか？",
+    "answer": "が",
+    "choices": [
+      "が",
+      "は",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「が」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_192",
+    "type": "language",
+    "question": "みず（　）のみますの（　）に入る言葉はどれですか？",
+    "answer": "を",
+    "choices": [
+      "を",
+      "は",
+      "が",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「を」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_193",
+    "type": "language",
+    "question": "きょうしつ（　）いますの（　）に入る言葉はどれですか？",
+    "answer": "に",
+    "choices": [
+      "に",
+      "は",
+      "が",
+      "を",
+      "で"
+    ],
+    "explanation": "この文では「に」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_194",
+    "type": "language",
+    "question": "ぼーる（　）あそびますの（　）に入る言葉はどれですか？",
+    "answer": "で",
+    "choices": [
+      "で",
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "explanation": "この文では「で」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_195",
+    "type": "language",
+    "question": "おかあさん（　）りょうりしますの（　）に入る言葉はどれですか？",
+    "answer": "が",
+    "choices": [
+      "が",
+      "は",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「が」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_196",
+    "type": "language",
+    "question": "てがみ（　）かきますの（　）に入る言葉はどれですか？",
+    "answer": "を",
+    "choices": [
+      "を",
+      "は",
+      "が",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「を」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_197",
+    "type": "language",
+    "question": "がっこう（　）たのしいですの（　）に入る言葉はどれですか？",
+    "answer": "は",
+    "choices": [
+      "は",
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「は」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_198",
+    "type": "language",
+    "question": "ともだち（　）はなしますの（　）に入る言葉はどれですか？",
+    "answer": "と",
+    "choices": [
+      "と",
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "explanation": "この文では「と」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_199",
+    "type": "language",
+    "question": "ひるごはん（　）たべますの（　）に入る言葉はどれですか？",
+    "answer": "を",
+    "choices": [
+      "を",
+      "は",
+      "が",
+      "に",
+      "で"
+    ],
+    "explanation": "この文では「を」が正しい助詞です",
+    "difficulty": 1
+  },
+  {
+    "id": "jp_particle_200",
+    "type": "language",
+    "question": "よる（　）ねますの（　）に入る言葉はどれですか？",
+    "answer": "に",
+    "choices": [
+      "に",
+      "は",
+      "が",
+      "を",
+      "で"
+    ],
+    "explanation": "この文では「に」が正しい助詞です",
+    "difficulty": 1
+  }
+]

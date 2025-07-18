@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>算数問題をデータベースに保存</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .info { background-color: #d1ecf1; color: #0c5460; }
+        button { padding: 10px 20px; margin: 10px; }
+        .progress { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>問題をデータベースに保存</h1>
+        
+        <div id="status"></div>
+        
+        <button onclick="generateAndSaveMathQuestions()">400問の算数問題を生成して保存</button>
+        <button onclick="generateAndSaveJapaneseQuestions()">200問の国語問題を生成して保存</button>
+        <button onclick="loadQuestionsFromDatabase('math')">算数問題を確認</button>
+        <button onclick="loadQuestionsFromDatabase('language')">国語問題を確認</button>
+        
+        <div id="progress" class="progress"></div>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // 算数問題生成関数（JavaScript版）
+        function generateCalculationQuestions() {
+            const questions = [];
+            let questionNumber = 1;
+            
+            // 足し算問題 (1桁+1桁 = 10以下)
+            for (let a = 1; a <= 9; a++) {
+                for (let b = 1; b <= 9; b++) {
+                    if (a + b <= 10 && questionNumber <= 100) {
+                        questions.push({
+                            id: `calc_${questionNumber}`,
+                            type: 'math',
+                            question: `${a} + ${b} = ?`,
+                            answer: (a + b).toString(),
+                            explanation: `${a}と${b}を足すと${a + b}になります`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            }
+            
+            // 引き算問題
+            for (let a = 1; a <= 10; a++) {
+                for (let b = 1; b <= a; b++) {
+                    if (questionNumber <= 150) {
+                        questions.push({
+                            id: `calc_${questionNumber}`,
+                            type: 'math',
+                            question: `${a} - ${b} = ?`,
+                            answer: (a - b).toString(),
+                            explanation: `${a}から${b}を引くと${a - b}になります`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            }
+            
+            // 10の合成・分解問題
+            const tens = [[1, 9], [2, 8], [3, 7], [4, 6], [5, 5]];
+            tens.forEach(([a, b]) => {
+                if (questionNumber <= 180) {
+                    questions.push({
+                        id: `calc_${questionNumber}`,
+                        type: 'math',
+                        question: `${a} + ? = 10`,
+                        answer: b.toString(),
+                        explanation: `${a}に${b}を足すと10になります`,
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 残りの問題を追加
+            while (questionNumber <= 200) {
+                const a = Math.floor(Math.random() * 5) + 1;
+                const b = Math.floor(Math.random() * 5) + 1;
+                
+                if (a + b <= 10) {
+                    questions.push({
+                        id: `calc_${questionNumber}`,
+                        type: 'math',
+                        question: `${a} + ${b} = ?`,
+                        answer: (a + b).toString(),
+                        explanation: `${a}と${b}を足すと${a + b}になります`,
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            }
+            
+            return questions.slice(0, 200);
+        }
+
+        function generateWordProblems() {
+            const problems = [];
+            let questionNumber = 1;
+            
+            // 動物の数を数える問題
+            const animals = ['ねこ', 'いぬ', 'うさぎ', 'とり', 'さかな'];
+            
+            animals.forEach(animal => {
+                for (let i = 1; i <= 8; i++) {
+                    if (questionNumber <= 40) {
+                        problems.push({
+                            id: `word_${questionNumber}`,
+                            type: 'math',
+                            question: `${animal}が${i}ひきいます。みんなで何ひきですか？`,
+                            answer: i.toString(),
+                            explanation: `${animal}が${i}ひきいるので、答えは${i}ひきです`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            });
+            
+            // 食べ物の数を数える問題
+            const foods = ['りんご', 'みかん', 'ばなな', 'いちご'];
+            
+            foods.forEach(food => {
+                for (let i = 1; i <= 10; i++) {
+                    if (questionNumber <= 80) {
+                        problems.push({
+                            id: `word_${questionNumber}`,
+                            type: 'math',
+                            question: `${food}が${i}こあります。みんなで何こですか？`,
+                            answer: i.toString(),
+                            explanation: `${food}が${i}こあるので、答えは${i}こです`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            });
+            
+            // 足し算の文章題
+            const additionProblems = [
+                ['りんご', 2, 'みかん', 3, 5],
+                ['ねこ', 1, 'いぬ', 2, 3],
+                ['ほん', 3, 'ほん', 1, 4],
+                ['えんぴつ', 2, 'えんぴつ', 2, 4],
+                ['はな', 1, 'はな', 3, 4],
+                ['ぼーる', 2, 'ぼーる', 1, 3]
+            ];
+            
+            additionProblems.forEach(([item1, num1, item2, num2, answer]) => {
+                for (let i = 0; i < 5; i++) {
+                    if (questionNumber <= 120) {
+                        problems.push({
+                            id: `word_${questionNumber}`,
+                            type: 'math',
+                            question: `${item1}が${num1}こと${item2}が${num2}こあります。ぜんぶで何こですか？`,
+                            answer: answer.toString(),
+                            explanation: `${num1}こと${num2}こを足すと${answer}こになります`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            });
+            
+            // 引き算の文章題
+            const subtractionProblems = [
+                ['りんご', 5, 2, 3],
+                ['ねこ', 4, 1, 3],
+                ['ほん', 6, 2, 4],
+                ['えんぴつ', 8, 3, 5],
+                ['はな', 7, 3, 4],
+                ['ぼーる', 5, 1, 4]
+            ];
+            
+            subtractionProblems.forEach(([item, total, taken, answer]) => {
+                for (let i = 0; i < 10; i++) {
+                    if (questionNumber <= 180) {
+                        problems.push({
+                            id: `word_${questionNumber}`,
+                            type: 'math',
+                            question: `${item}が${total}こありました。${taken}こつかいました。のこりは何こですか？`,
+                            answer: answer.toString(),
+                            explanation: `${total}こから${taken}こを引くと${answer}こになります`,
+                            difficulty: 1
+                        });
+                        questionNumber++;
+                    }
+                }
+            });
+            
+            // 残りの問題を追加
+            while (questionNumber <= 200) {
+                const a = Math.floor(Math.random() * 5) + 1;
+                const b = Math.floor(Math.random() * 5) + 1;
+                
+                if (a + b <= 10) {
+                    problems.push({
+                        id: `word_${questionNumber}`,
+                        type: 'math',
+                        question: `りんごが${a}こ、みかんが${b}こあります。ぜんぶで何こですか？`,
+                        answer: (a + b).toString(),
+                        explanation: `${a}こと${b}こを足すと${a + b}こになります`,
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            }
+            
+            return problems.slice(0, 200);
+        }
+
+        // 国語問題生成関数
+        function generateJapaneseQuestions() {
+            const questions = [];
+            let questionNumber = 1;
+            
+            // 1. カタカナ変換問題（30問）
+            const katakanaConversions = [
+                ['いぬ', 'イヌ'], ['ねこ', 'ネコ'], ['うさぎ', 'ウサギ'], ['とり', 'トリ'], ['さかな', 'サカナ'],
+                ['らいおん', 'ライオン'], ['ぞう', 'ゾウ'], ['きりん', 'キリン'], ['ぶた', 'ブタ'], ['うし', 'ウシ'],
+                ['りんご', 'リンゴ'], ['ばなな', 'バナナ'], ['みかん', 'ミカン'], ['いちご', 'イチゴ'], ['ぶどう', 'ブドウ'],
+                ['ぱん', 'パン'], ['けーき', 'ケーキ'], ['あいす', 'アイス'], ['じゅーす', 'ジュース'], ['みるく', 'ミルク'],
+                ['ぼーる', 'ボール'], ['らじお', 'ラジオ'], ['てれび', 'テレビ'], ['でんわ', 'デンワ'], ['かめら', 'カメラ'],
+                ['たくしー', 'タクシー'], ['ばす', 'バス'], ['でんしゃ', 'デンシャ'], ['ひこうき', 'ヒコウキ'], ['しっぷ', 'シップ']
+            ];
+            
+            katakanaConversions.forEach(([hiragana, katakana]) => {
+                if (questionNumber <= 30) {
+                    questions.push({
+                        id: `jp_katakana_${questionNumber}`,
+                        type: 'language',
+                        question: `「${hiragana}」をカタカナで書くとどれですか？`,
+                        answer: katakana,
+                        choices: shuffleChoices([katakana, generateWrongKatakanaChoice(katakana, 1), generateWrongKatakanaChoice(katakana, 2), generateWrongKatakanaChoice(katakana, 3), generateWrongKatakanaChoice(katakana, 4)]),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 2. 文字数問題（20問）
+            const wordCounts = [
+                ['ねこ', 2], ['いぬ', 2], ['うさぎ', 3], ['らいおん', 4], ['ぞう', 2],
+                ['りんご', 3], ['ばなな', 3], ['いちご', 3], ['ぶどう', 3], ['みかん', 3],
+                ['はな', 2], ['き', 1], ['やま', 2], ['うみ', 2], ['かわ', 2],
+                ['そら', 2], ['つき', 2], ['ほし', 2], ['ひ', 1], ['ゆき', 2]
+            ];
+            
+            wordCounts.forEach(([word, count]) => {
+                if (questionNumber <= 50) {
+                    questions.push({
+                        id: `jp_count_${questionNumber}`,
+                        type: 'language',
+                        question: `「${word}」は何文字ですか？`,
+                        answer: count.toString(),
+                        choices: shuffleChoices([count.toString(), '1', '2', '3', '4'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 3. 反対語問題（20問）
+            const opposites = [
+                ['おおきい', 'ちいさい'], ['たかい', 'ひくい'], ['ながい', 'みじかい'], ['おもい', 'かるい'],
+                ['あつい', 'つめたい'], ['はやい', 'おそい'], ['あかるい', 'くらい'], ['つよい', 'よわい'],
+                ['あたらしい', 'ふるい'], ['きれい', 'きたない'], ['しずか', 'うるさい'], ['やすい', 'たかい'],
+                ['ひろい', 'せまい'], ['かたい', 'やわらかい'], ['あまい', 'からい'], ['まえ', 'うしろ'],
+                ['うえ', 'した'], ['みぎ', 'ひだり'], ['はじめ', 'おわり'], ['あさ', 'よる']
+            ];
+            
+            opposites.forEach(([word, opposite]) => {
+                if (questionNumber <= 70) {
+                    questions.push({
+                        id: `jp_opposite_${questionNumber}`,
+                        type: 'language',
+                        question: `「${word}」の反対の意味の言葉はどれですか？`,
+                        answer: opposite,
+                        choices: shuffleChoices([opposite, 'あかるい', 'はやい', 'おおきい', 'あたらしい'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 4. 擬音語・擬態語問題（30問）
+            const onomatopoeia = [
+                ['いぬの鳴き声', 'わんわん'], ['ねこの鳴き声', 'にゃんにゃん'], ['うしの鳴き声', 'もーもー'],
+                ['とりの鳴き声', 'ぴーぴー'], ['にわとりの鳴き声', 'こけこっこー'], ['雨の音', 'ぱらぱら'],
+                ['太鼓の音', 'どんどん'], ['紙の音', 'がさがさ'], ['石の音', 'ごろごろ'], ['玉の音', 'ころころ'],
+                ['きらきら光る', 'きらきら'], ['ぴかぴか光る', 'ぴかぴか'], ['寒くて震える', 'ぶるぶる'],
+                ['回転する', 'ぐるぐる'], ['やわらかい', 'ふわふわ'], ['歩く音', 'とことこ'],
+                ['足音', 'ぺたぺた'], ['羽音', 'ぱたぱた'], ['散歩する', 'てくてく'], ['電車の音', 'ごとごと'],
+                ['水の音', 'ちゃぷちゃぷ'], ['風の音', 'ひゅーひゅー'], ['時計の音', 'ちくたく'],
+                ['ドアの音', 'ばたん'], ['鈴の音', 'りんりん'], ['笑い声', 'わははは'],
+                ['泣き声', 'えーんえーん'], ['くしゃみ', 'はっくしょん'], ['いびき', 'ぐーぐー'], ['おなかの音', 'ぐるぐる']
+            ];
+            
+            onomatopoeia.forEach(([description, answer]) => {
+                if (questionNumber <= 100) {
+                    questions.push({
+                        id: `jp_onomatopoeia_${questionNumber}`,
+                        type: 'language',
+                        question: `${description}を表す言葉はどれですか？`,
+                        answer: answer,
+                        choices: shuffleChoices([answer, 'ぱたぱた', 'ころころ', 'ふわふわ', 'きらきら'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 5. 単語の分類問題（30問）
+            const categories = [
+                ['動物', 'いぬ'], ['動物', 'ねこ'], ['動物', 'うさぎ'], ['動物', 'とり'], ['動物', 'さかな'],
+                ['食べ物', 'りんご'], ['食べ物', 'ばなな'], ['食べ物', 'みかん'], ['食べ物', 'いちご'], ['食べ物', 'ぶどう'],
+                ['乗り物', 'でんしゃ'], ['乗り物', 'ひこうき'], ['乗り物', 'ばす'], ['乗り物', 'ふね'], ['乗り物', 'じてんしゃ'],
+                ['身体', 'あたま'], ['身体', 'て'], ['身体', 'あし'], ['身体', 'め'], ['身体', 'はな'],
+                ['色', 'あか'], ['色', 'あお'], ['色', 'きいろ'], ['色', 'みどり'], ['色', 'しろ'],
+                ['家族', 'おかあさん'], ['家族', 'おとうさん'], ['家族', 'おにいさん'], ['家族', 'おねえさん'], ['家族', 'あかちゃん']
+            ];
+            
+            categories.forEach(([category, answer]) => {
+                if (questionNumber <= 130) {
+                    questions.push({
+                        id: `jp_category_${questionNumber}`,
+                        type: 'language',
+                        question: `${category}の仲間はどれですか？`,
+                        answer: answer,
+                        choices: shuffleChoices([answer, 'ほん', 'くつ', 'はな', 'つき'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 6. 季節の言葉問題（20問）
+            const seasons = [
+                ['春', 'はる'], ['夏', 'なつ'], ['秋', 'あき'], ['冬', 'ふゆ'],
+                ['桜', 'さくら'], ['雪', 'ゆき'], ['花', 'はな'], ['葉', 'は'],
+                ['風', 'かぜ'], ['雨', 'あめ'], ['太陽', 'たいよう'], ['月', 'つき'],
+                ['星', 'ほし'], ['空', 'そら'], ['海', 'うみ'], ['山', 'やま'],
+                ['川', 'かわ'], ['森', 'もり'], ['虫', 'むし'], ['鳥', 'とり']
+            ];
+            
+            seasons.forEach(([kanji, hiragana]) => {
+                if (questionNumber <= 150) {
+                    questions.push({
+                        id: `jp_season_${questionNumber}`,
+                        type: 'language',
+                        question: `「${kanji}」の読み方はどれですか？`,
+                        answer: hiragana,
+                        choices: shuffleChoices([hiragana, 'みず', 'き', 'いし', 'つち'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            // 7. 助詞問題（50問）
+            const particles = [
+                ['わたし（　）がっこうへいきます', 'は'], ['ほん（　）よみます', 'を'], ['がっこう（　）べんきょうします', 'で'],
+                ['おともだち（　）あそびます', 'と'], ['おうち（　）かえります', 'に'], ['ねこ（　）かわいいです', 'が'],
+                ['えんぴつ（　）かきます', 'で'], ['りんご（　）たべます', 'を'], ['あした（　）えんそくです', 'は'],
+                ['こうえん（　）いきます', 'に'], ['いぬ（　）はしります', 'が'], ['みず（　）のみます', 'を'],
+                ['きょうしつ（　）います', 'に'], ['ぼーる（　）あそびます', 'で'], ['おかあさん（　）りょうりします', 'が'],
+                ['てがみ（　）かきます', 'を'], ['がっこう（　）たのしいです', 'は'], ['ともだち（　）はなします', 'と'],
+                ['ひるごはん（　）たべます', 'を'], ['よる（　）ねます', 'に'], ['あめ（　）ふります', 'が'],
+                ['はな（　）きれいです', 'が'], ['でんしゃ（　）のります', 'に'], ['ばす（　）いきます', 'で'],
+                ['かばん（　）もちます', 'を'], ['せんせい（　）ききます', 'に'], ['ともだち（　）てがみをかきます', 'に'],
+                ['おかあさん（　）プレゼントをもらいます', 'に'], ['やま（　）のぼります', 'に'], ['うみ（　）およぎます', 'で'],
+                ['ほん（　）つくえにおきます', 'を'], ['えんぴつ（　）つくえにあります', 'が'], ['ねこ（　）にわにいます', 'が'],
+                ['いぬ（　）こうえんではしります', 'が'], ['とり（　）そらをとびます', 'が'], ['さかな（　）うみにいます', 'が'],
+                ['はな（　）にわにさきます', 'が'], ['き（　）やまにあります', 'が'], ['つき（　）そらにでます', 'が'],
+                ['ほし（　）よるにひかります', 'が'], ['ひ（　）あさにでます', 'が'], ['くも（　）そらにあります', 'が'],
+                ['あめ（　）そらからふります', 'が'], ['ゆき（　）ふゆにふります', 'が'], ['はな（　）はるにさきます', 'が'],
+                ['みどり（　）なつにきれいです', 'が'], ['もみじ（　）あきにきれいです', 'が'], ['おかあさん（　）やさしいです', 'が'],
+                ['おとうさん（　）つよいです', 'が'], ['せんせい（　）しんせつです', 'が'], ['ともだち（　）たのしいです', 'が']
+            ];
+            
+            particles.forEach(([sentence, answer]) => {
+                if (questionNumber <= 200) {
+                    questions.push({
+                        id: `jp_particle_${questionNumber}`,
+                        type: 'language',
+                        question: `${sentence}の（　）に入る言葉はどれですか？`,
+                        answer: answer,
+                        choices: shuffleChoices([answer, 'が', 'を', 'に', 'で'].filter((v, i, a) => a.indexOf(v) === i)),
+                        difficulty: 1
+                    });
+                    questionNumber++;
+                }
+            });
+            
+            return questions.slice(0, 200);
+        }
+
+        function generateWrongKatakanaChoice(correct, index) {
+            const alternatives = ['ア', 'イ', 'ウ', 'エ', 'オ', 'カ', 'キ', 'ク', 'ケ', 'コ', 'サ', 'シ', 'ス', 'セ', 'ソ'];
+            return correct.split('').map((char, i) => i === index ? alternatives[Math.floor(Math.random() * alternatives.length)] : char).join('');
+        }
+
+        function shuffleChoices(choices) {
+            const shuffled = [...choices];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled.slice(0, 5);
+        }
+
+        function showStatus(message, type = 'info') {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="${type}">${message}</div>`;
+        }
+
+        function showProgress(message) {
+            const progressDiv = document.getElementById('progress');
+            progressDiv.innerHTML = message;
+        }
+
+        async function generateAndSaveMathQuestions() {
+            showStatus('算数問題を生成中...', 'info');
+            showProgress('');
+            
+            try {
+                // 問題を生成
+                const calculationQuestions = generateCalculationQuestions();
+                const wordProblems = generateWordProblems();
+                const allQuestions = [...calculationQuestions, ...wordProblems];
+                
+                showStatus(`${allQuestions.length}問の算数問題を生成しました`, 'success');
+                showProgress('データベースに保存中...');
+                
+                // 個別に保存
+                let savedCount = 0;
+                for (const question of allQuestions) {
+                    try {
+                        const response = await fetch('/api/questions', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(question)
+                        });
+                        
+                        if (response.ok) {
+                            savedCount++;
+                        }
+                    } catch (error) {
+                        console.error('個別保存エラー:', error);
+                    }
+                }
+                
+                showStatus(`✅ ${savedCount}問の算数問題をデータベースに保存しました`, 'success');
+                showProgress('');
+                
+                // 結果を表示
+                document.getElementById('result').innerHTML = `
+                    <h3>算数問題保存完了</h3>
+                    <p>計算問題: ${calculationQuestions.length}問</p>
+                    <p>文章題: ${wordProblems.length}問</p>
+                    <p>保存成功: ${savedCount}問</p>
+                `;
+                
+            } catch (error) {
+                showStatus(`エラー: ${error.message}`, 'error');
+                showProgress('');
+            }
+        }
+
+        async function generateAndSaveJapaneseQuestions() {
+            showStatus('国語問題を生成中...', 'info');
+            showProgress('');
+            
+            try {
+                // 国語問題を生成
+                const japaneseQuestions = generateJapaneseQuestions();
+                
+                showStatus(`${japaneseQuestions.length}問の国語問題を生成しました`, 'success');
+                showProgress('データベースに保存中...');
+                
+                // 個別に保存
+                let savedCount = 0;
+                for (const question of japaneseQuestions) {
+                    try {
+                        const response = await fetch('/api/questions', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(question)
+                        });
+                        
+                        if (response.ok) {
+                            savedCount++;
+                        }
+                    } catch (error) {
+                        console.error('個別保存エラー:', error);
+                    }
+                }
+                
+                showStatus(`✅ ${savedCount}問の国語問題をデータベースに保存しました`, 'success');
+                showProgress('');
+                
+                // 結果を表示
+                document.getElementById('result').innerHTML = `
+                    <h3>国語問題保存完了</h3>
+                    <p>ひらがな読み: 30問</p>
+                    <p>カタカナ変換: 30問</p>
+                    <p>文字数: 20問</p>
+                    <p>反対語: 20問</p>
+                    <p>同じ音: 20問</p>
+                    <p>擬音語・擬態語: 20問</p>
+                    <p>季節の言葉: 20問</p>
+                    <p>単語の分類: 20問</p>
+                    <p>助詞: 20問</p>
+                    <p>保存成功: ${savedCount}問</p>
+                `;
+                
+            } catch (error) {
+                showStatus(`エラー: ${error.message}`, 'error');
+                showProgress('');
+            }
+        }
+
+        async function loadQuestionsFromDatabase(type) {
+            showStatus(`${type === 'math' ? '算数' : '国語'}問題をデータベースから読み込み中...`, 'info');
+            
+            try {
+                const response = await fetch(`/api/questions/${type}`);
+                
+                if (!response.ok) {
+                    throw new Error('読み込みに失敗しました');
+                }
+                
+                const questions = await response.json();
+                showStatus(`✅ ${questions.length}問の${type === 'math' ? '算数' : '国語'}問題を読み込みました`, 'success');
+                
+                // 最初の10問を表示
+                const sampleQuestions = questions.slice(0, 10);
+                document.getElementById('result').innerHTML = `
+                    <h3>データベース内の${type === 'math' ? '算数' : '国語'}問題（最初の10問）</h3>
+                    <ul>
+                        ${sampleQuestions.map(q => `<li>${q.question} (答え: ${q.answer})</li>`).join('')}
+                    </ul>
+                `;
+                
+            } catch (error) {
+                showStatus(`エラー: ${error.message}`, 'error');
+            }
+        }
+    </script>
+</body>
+</html>

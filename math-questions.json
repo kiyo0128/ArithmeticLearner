@@ -1,0 +1,3607 @@
+{
+  "calculation": [
+    {
+      "id": "calc_1",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 1 = ?",
+      "answer": "2",
+      "explanation": "1と1を足すと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_2",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 2 = ?",
+      "answer": "3",
+      "explanation": "1と2を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_3",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 3 = ?",
+      "answer": "4",
+      "explanation": "1と3を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_4",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 4 = ?",
+      "answer": "5",
+      "explanation": "1と4を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_5",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 5 = ?",
+      "answer": "6",
+      "explanation": "1と5を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_6",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 6 = ?",
+      "answer": "7",
+      "explanation": "1と6を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_7",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 7 = ?",
+      "answer": "8",
+      "explanation": "1と7を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_8",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 8 = ?",
+      "answer": "9",
+      "explanation": "1と8を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_9",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 9 = ?",
+      "answer": "10",
+      "explanation": "1と9を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_10",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 1 = ?",
+      "answer": "3",
+      "explanation": "2と1を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_11",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_12",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 3 = ?",
+      "answer": "5",
+      "explanation": "2と3を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_13",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 4 = ?",
+      "answer": "6",
+      "explanation": "2と4を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_14",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 5 = ?",
+      "answer": "7",
+      "explanation": "2と5を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_15",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 6 = ?",
+      "answer": "8",
+      "explanation": "2と6を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_16",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 7 = ?",
+      "answer": "9",
+      "explanation": "2と7を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_17",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 8 = ?",
+      "answer": "10",
+      "explanation": "2と8を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_18",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 1 = ?",
+      "answer": "4",
+      "explanation": "3と1を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_19",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 2 = ?",
+      "answer": "5",
+      "explanation": "3と2を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_20",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 3 = ?",
+      "answer": "6",
+      "explanation": "3と3を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_21",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 4 = ?",
+      "answer": "7",
+      "explanation": "3と4を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_22",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 5 = ?",
+      "answer": "8",
+      "explanation": "3と5を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_23",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 6 = ?",
+      "answer": "9",
+      "explanation": "3と6を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_24",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 7 = ?",
+      "answer": "10",
+      "explanation": "3と7を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_25",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 1 = ?",
+      "answer": "5",
+      "explanation": "4と1を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_26",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 2 = ?",
+      "answer": "6",
+      "explanation": "4と2を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_27",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 3 = ?",
+      "answer": "7",
+      "explanation": "4と3を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_28",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 4 = ?",
+      "answer": "8",
+      "explanation": "4と4を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_29",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 5 = ?",
+      "answer": "9",
+      "explanation": "4と5を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_30",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 6 = ?",
+      "answer": "10",
+      "explanation": "4と6を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_31",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 1 = ?",
+      "answer": "6",
+      "explanation": "5と1を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_32",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 2 = ?",
+      "answer": "7",
+      "explanation": "5と2を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_33",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 3 = ?",
+      "answer": "8",
+      "explanation": "5と3を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_34",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 4 = ?",
+      "answer": "9",
+      "explanation": "5と4を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_35",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 5 = ?",
+      "answer": "10",
+      "explanation": "5と5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_36",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 1 = ?",
+      "answer": "7",
+      "explanation": "6と1を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_37",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_38",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 3 = ?",
+      "answer": "9",
+      "explanation": "6と3を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_39",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 4 = ?",
+      "answer": "10",
+      "explanation": "6と4を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_40",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 1 = ?",
+      "answer": "8",
+      "explanation": "7と1を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_41",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 2 = ?",
+      "answer": "9",
+      "explanation": "7と2を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_42",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 3 = ?",
+      "answer": "10",
+      "explanation": "7と3を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_43",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 1 = ?",
+      "answer": "9",
+      "explanation": "8と1を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_44",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 2 = ?",
+      "answer": "10",
+      "explanation": "8と2を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_45",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 + 1 = ?",
+      "answer": "10",
+      "explanation": "9と1を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_46",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 - 1 = ?",
+      "answer": "0",
+      "explanation": "1から1を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_47",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 - 1 = ?",
+      "answer": "1",
+      "explanation": "2から1を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_48",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 - 2 = ?",
+      "answer": "0",
+      "explanation": "2から2を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_49",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 - 1 = ?",
+      "answer": "2",
+      "explanation": "3から1を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_50",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 - 2 = ?",
+      "answer": "1",
+      "explanation": "3から2を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_51",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 - 3 = ?",
+      "answer": "0",
+      "explanation": "3から3を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_52",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 - 1 = ?",
+      "answer": "3",
+      "explanation": "4から1を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_53",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 - 2 = ?",
+      "answer": "2",
+      "explanation": "4から2を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_54",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 - 3 = ?",
+      "answer": "1",
+      "explanation": "4から3を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_55",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 - 4 = ?",
+      "answer": "0",
+      "explanation": "4から4を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_56",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 - 1 = ?",
+      "answer": "4",
+      "explanation": "5から1を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_57",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 - 2 = ?",
+      "answer": "3",
+      "explanation": "5から2を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_58",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 - 3 = ?",
+      "answer": "2",
+      "explanation": "5から3を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_59",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 - 4 = ?",
+      "answer": "1",
+      "explanation": "5から4を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_60",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 - 5 = ?",
+      "answer": "0",
+      "explanation": "5から5を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_61",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 1 = ?",
+      "answer": "5",
+      "explanation": "6から1を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_62",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 2 = ?",
+      "answer": "4",
+      "explanation": "6から2を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_63",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 3 = ?",
+      "answer": "3",
+      "explanation": "6から3を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_64",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 4 = ?",
+      "answer": "2",
+      "explanation": "6から4を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_65",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 5 = ?",
+      "answer": "1",
+      "explanation": "6から5を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_66",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 - 6 = ?",
+      "answer": "0",
+      "explanation": "6から6を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_67",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 1 = ?",
+      "answer": "6",
+      "explanation": "7から1を引くと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_68",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 2 = ?",
+      "answer": "5",
+      "explanation": "7から2を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_69",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 3 = ?",
+      "answer": "4",
+      "explanation": "7から3を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_70",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 4 = ?",
+      "answer": "3",
+      "explanation": "7から4を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_71",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 5 = ?",
+      "answer": "2",
+      "explanation": "7から5を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_72",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 6 = ?",
+      "answer": "1",
+      "explanation": "7から6を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_73",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 - 7 = ?",
+      "answer": "0",
+      "explanation": "7から7を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_74",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 1 = ?",
+      "answer": "7",
+      "explanation": "8から1を引くと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_75",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 2 = ?",
+      "answer": "6",
+      "explanation": "8から2を引くと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_76",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 3 = ?",
+      "answer": "5",
+      "explanation": "8から3を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_77",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 4 = ?",
+      "answer": "4",
+      "explanation": "8から4を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_78",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 5 = ?",
+      "answer": "3",
+      "explanation": "8から5を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_79",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 6 = ?",
+      "answer": "2",
+      "explanation": "8から6を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_80",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 7 = ?",
+      "answer": "1",
+      "explanation": "8から7を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_81",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 - 8 = ?",
+      "answer": "0",
+      "explanation": "8から8を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_82",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 1 = ?",
+      "answer": "8",
+      "explanation": "9から1を引くと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_83",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 2 = ?",
+      "answer": "7",
+      "explanation": "9から2を引くと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_84",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 3 = ?",
+      "answer": "6",
+      "explanation": "9から3を引くと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_85",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 4 = ?",
+      "answer": "5",
+      "explanation": "9から4を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_86",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 5 = ?",
+      "answer": "4",
+      "explanation": "9から5を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_87",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 6 = ?",
+      "answer": "3",
+      "explanation": "9から6を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_88",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 7 = ?",
+      "answer": "2",
+      "explanation": "9から7を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_89",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 8 = ?",
+      "answer": "1",
+      "explanation": "9から8を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_90",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 - 9 = ?",
+      "answer": "0",
+      "explanation": "9から9を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_91",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 1 = ?",
+      "answer": "9",
+      "explanation": "10から1を引くと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_92",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 2 = ?",
+      "answer": "8",
+      "explanation": "10から2を引くと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_93",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 3 = ?",
+      "answer": "7",
+      "explanation": "10から3を引くと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_94",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 4 = ?",
+      "answer": "6",
+      "explanation": "10から4を引くと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_95",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 5 = ?",
+      "answer": "5",
+      "explanation": "10から5を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_96",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 6 = ?",
+      "answer": "4",
+      "explanation": "10から6を引くと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_97",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 7 = ?",
+      "answer": "3",
+      "explanation": "10から7を引くと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_98",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 8 = ?",
+      "answer": "2",
+      "explanation": "10から8を引くと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_99",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 9 = ?",
+      "answer": "1",
+      "explanation": "10から9を引くと1になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_100",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 10 = ?",
+      "answer": "0",
+      "explanation": "10から10を引くと0になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_101",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + ? = 10",
+      "answer": "9",
+      "explanation": "1に9を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_102",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 1 = ?",
+      "answer": "9",
+      "explanation": "10から1を引くと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_103",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + ? = 10",
+      "answer": "8",
+      "explanation": "2に8を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_104",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 2 = ?",
+      "answer": "8",
+      "explanation": "10から2を引くと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_105",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + ? = 10",
+      "answer": "7",
+      "explanation": "3に7を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_106",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 3 = ?",
+      "answer": "7",
+      "explanation": "10から3を引くと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_107",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + ? = 10",
+      "answer": "6",
+      "explanation": "4に6を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_108",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 4 = ?",
+      "answer": "6",
+      "explanation": "10から4を引くと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_109",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + ? = 10",
+      "answer": "5",
+      "explanation": "5に5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_110",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "10 - 5 = ?",
+      "answer": "5",
+      "explanation": "10から5を引くと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_111",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3と5はどちらが大きいですか？",
+      "answer": "5",
+      "explanation": "5の方が3より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_112",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2と7はどちらが大きいですか？",
+      "answer": "7",
+      "explanation": "7の方が2より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_113",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4と6はどちらが大きいですか？",
+      "answer": "6",
+      "explanation": "6の方が4より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_114",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1と8はどちらが大きいですか？",
+      "answer": "8",
+      "explanation": "8の方が1より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_115",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5と9はどちらが大きいですか？",
+      "answer": "9",
+      "explanation": "9の方が5より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_116",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2と4はどちらが大きいですか？",
+      "answer": "4",
+      "explanation": "4の方が2より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_117",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3と8はどちらが大きいですか？",
+      "answer": "8",
+      "explanation": "8の方が3より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_118",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1と6はどちらが大きいですか？",
+      "answer": "6",
+      "explanation": "6の方が1より大きいです",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_119",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_120",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 2 = ?",
+      "answer": "9",
+      "explanation": "7と2を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_121",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 4 = ?",
+      "answer": "7",
+      "explanation": "3と4を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_122",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 4 = ?",
+      "answer": "7",
+      "explanation": "3と4を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_123",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 7 = ?",
+      "answer": "8",
+      "explanation": "1と7を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_124",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 2 = ?",
+      "answer": "5",
+      "explanation": "3と2を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_125",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 2 = ?",
+      "answer": "3",
+      "explanation": "1と2を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_126",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "9 + 1 = ?",
+      "answer": "10",
+      "explanation": "9と1を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_127",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 5 = ?",
+      "answer": "9",
+      "explanation": "4と5を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_128",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 1 = ?",
+      "answer": "7",
+      "explanation": "6と1を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_129",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 1 = ?",
+      "answer": "5",
+      "explanation": "4と1を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_130",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 5 = ?",
+      "answer": "10",
+      "explanation": "5と5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_131",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 6 = ?",
+      "answer": "8",
+      "explanation": "2と6を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_132",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_133",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 5 = ?",
+      "answer": "7",
+      "explanation": "2と5を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_134",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_135",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 3 = ?",
+      "answer": "6",
+      "explanation": "3と3を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_136",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 6 = ?",
+      "answer": "10",
+      "explanation": "4と6を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_137",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 7 = ?",
+      "answer": "9",
+      "explanation": "2と7を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_138",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 1 = ?",
+      "answer": "2",
+      "explanation": "1と1を足すと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_139",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_140",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 6 = ?",
+      "answer": "7",
+      "explanation": "1と6を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_141",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 2 = ?",
+      "answer": "10",
+      "explanation": "8と2を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_142",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 1 = ?",
+      "answer": "8",
+      "explanation": "7と1を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_143",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 1 = ?",
+      "answer": "9",
+      "explanation": "8と1を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_144",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_145",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 1 = ?",
+      "answer": "4",
+      "explanation": "3と1を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_146",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 6 = ?",
+      "answer": "8",
+      "explanation": "2と6を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_147",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 2 = ?",
+      "answer": "6",
+      "explanation": "4と2を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_148",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 4 = ?",
+      "answer": "7",
+      "explanation": "3と4を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_149",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 3 = ?",
+      "answer": "4",
+      "explanation": "1と3を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_150",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 5 = ?",
+      "answer": "6",
+      "explanation": "1と5を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_151",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 8 = ?",
+      "answer": "9",
+      "explanation": "1と8を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_152",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 5 = ?",
+      "answer": "10",
+      "explanation": "5と5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_153",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 5 = ?",
+      "answer": "10",
+      "explanation": "5と5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_154",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 2 = ?",
+      "answer": "9",
+      "explanation": "7と2を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_155",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 1 = ?",
+      "answer": "7",
+      "explanation": "6と1を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_156",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 6 = ?",
+      "answer": "7",
+      "explanation": "1と6を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_157",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 5 = ?",
+      "answer": "10",
+      "explanation": "5と5を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_158",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_159",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 8 = ?",
+      "answer": "9",
+      "explanation": "1と8を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_160",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 1 = ?",
+      "answer": "7",
+      "explanation": "6と1を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_161",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 8 = ?",
+      "answer": "10",
+      "explanation": "2と8を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_162",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 2 = ?",
+      "answer": "7",
+      "explanation": "5と2を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_163",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 2 = ?",
+      "answer": "7",
+      "explanation": "5と2を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_164",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 6 = ?",
+      "answer": "7",
+      "explanation": "1と6を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_165",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 5 = ?",
+      "answer": "8",
+      "explanation": "3と5を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_166",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 2 = ?",
+      "answer": "10",
+      "explanation": "8と2を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_167",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 7 = ?",
+      "answer": "8",
+      "explanation": "1と7を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_168",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 7 = ?",
+      "answer": "8",
+      "explanation": "1と7を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_169",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 1 = ?",
+      "answer": "8",
+      "explanation": "7と1を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_170",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 4 = ?",
+      "answer": "7",
+      "explanation": "3と4を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_171",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 3 = ?",
+      "answer": "4",
+      "explanation": "1と3を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_172",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 1 = ?",
+      "answer": "3",
+      "explanation": "2と1を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_173",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 6 = ?",
+      "answer": "9",
+      "explanation": "3と6を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_174",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 7 = ?",
+      "answer": "10",
+      "explanation": "3と7を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_175",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 3 = ?",
+      "answer": "8",
+      "explanation": "5と3を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_176",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 1 = ?",
+      "answer": "2",
+      "explanation": "1と1を足すと2になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_177",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 5 = ?",
+      "answer": "8",
+      "explanation": "3と5を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_178",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_179",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 1 = ?",
+      "answer": "3",
+      "explanation": "2と1を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_180",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 1 = ?",
+      "answer": "5",
+      "explanation": "4と1を足すと5になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_181",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 1 = ?",
+      "answer": "9",
+      "explanation": "8と1を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_182",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 2 = ?",
+      "answer": "9",
+      "explanation": "7と2を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_183",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 3 = ?",
+      "answer": "6",
+      "explanation": "3と3を足すと6になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_184",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 4 = ?",
+      "answer": "8",
+      "explanation": "4と4を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_185",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 1 = ?",
+      "answer": "3",
+      "explanation": "2と1を足すと3になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_186",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 6 = ?",
+      "answer": "7",
+      "explanation": "1と6を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_187",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 5 = ?",
+      "answer": "8",
+      "explanation": "3と5を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_188",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "8 + 2 = ?",
+      "answer": "10",
+      "explanation": "8と2を足すと10になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_189",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 3 = ?",
+      "answer": "8",
+      "explanation": "5と3を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_190",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_191",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "1 + 7 = ?",
+      "answer": "8",
+      "explanation": "1と7を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_192",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "4 + 3 = ?",
+      "answer": "7",
+      "explanation": "4と3を足すと7になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_193",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 1 = ?",
+      "answer": "4",
+      "explanation": "3と1を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_194",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 6 = ?",
+      "answer": "9",
+      "explanation": "3と6を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_195",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "5 + 3 = ?",
+      "answer": "8",
+      "explanation": "5と3を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_196",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "2 + 2 = ?",
+      "answer": "4",
+      "explanation": "2と2を足すと4になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_197",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 1 = ?",
+      "answer": "8",
+      "explanation": "7と1を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_198",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "7 + 2 = ?",
+      "answer": "9",
+      "explanation": "7と2を足すと9になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_199",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "6 + 2 = ?",
+      "answer": "8",
+      "explanation": "6と2を足すと8になります",
+      "difficulty": 1
+    },
+    {
+      "id": "calc_200",
+      "type": "math",
+      "subtype": "calculation",
+      "question": "3 + 6 = ?",
+      "answer": "9",
+      "explanation": "3と6を足すと9になります",
+      "difficulty": 1
+    }
+  ],
+  "wordProblems": [
+    {
+      "id": "word_1",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "ねこが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_2",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "ねこが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_3",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "ねこが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_4",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "ねこが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_5",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "ねこが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_6",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いぬが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "いぬが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_7",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いぬが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "いぬが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_8",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いぬが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "いぬが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_9",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いぬが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "いぬが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_10",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いぬが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "いぬが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_11",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "うさぎが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "うさぎが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_12",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "うさぎが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "うさぎが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_13",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "うさぎが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "うさぎが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_14",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "うさぎが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "うさぎが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_15",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "うさぎが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "うさぎが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_16",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "とりが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "とりが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_17",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "とりが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "とりが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_18",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "とりが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "とりが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_19",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "とりが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "とりが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_20",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "とりが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "とりが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_21",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さかなが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "さかなが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_22",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さかなが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "さかなが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_23",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さかなが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "さかなが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_24",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さかなが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "さかなが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_25",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さかなが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "さかなが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_26",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひよこが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "ひよこが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_27",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひよこが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "ひよこが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_28",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひよこが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "ひよこが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_29",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひよこが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "ひよこが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_30",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひよこが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "ひよこが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_31",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かめが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "かめが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_32",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かめが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "かめが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_33",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かめが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "かめが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_34",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かめが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "かめが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_35",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かめが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "かめが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_36",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りすが1ひきいます。みんなで何ひきですか？",
+      "answer": "1",
+      "explanation": "りすが1ひきいるので、答えは1ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_37",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りすが2ひきいます。みんなで何ひきですか？",
+      "answer": "2",
+      "explanation": "りすが2ひきいるので、答えは2ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_38",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りすが3ひきいます。みんなで何ひきですか？",
+      "answer": "3",
+      "explanation": "りすが3ひきいるので、答えは3ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_39",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りすが4ひきいます。みんなで何ひきですか？",
+      "answer": "4",
+      "explanation": "りすが4ひきいるので、答えは4ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_40",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りすが5ひきいます。みんなで何ひきですか？",
+      "answer": "5",
+      "explanation": "りすが5ひきいるので、答えは5ひきです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_41",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "りんごが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_42",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "りんごが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_43",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "りんごが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_44",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "りんごが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_45",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "りんごが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_46",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "みかんが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "みかんが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_47",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "みかんが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "みかんが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_48",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "みかんが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "みかんが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_49",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "みかんが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "みかんが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_50",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "みかんが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "みかんが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_51",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ばななが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "ばななが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_52",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ばななが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "ばななが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_53",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ばななが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "ばななが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_54",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ばななが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "ばななが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_55",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ばななが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "ばななが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_56",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いちごが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "いちごが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_57",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いちごが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "いちごが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_58",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いちごが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "いちごが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_59",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いちごが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "いちごが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_60",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "いちごが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "いちごが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_61",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぶどうが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "ぶどうが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_62",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぶどうが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "ぶどうが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_63",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぶどうが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "ぶどうが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_64",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぶどうが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "ぶどうが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_65",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぶどうが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "ぶどうが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_66",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ももが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "ももが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_67",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ももが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "ももが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_68",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ももが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "ももが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_69",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ももが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "ももが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_70",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ももが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "ももが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_71",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "なしが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "なしが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_72",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "なしが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "なしが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_73",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "なしが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "なしが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_74",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "なしが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "なしが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_75",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "なしが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "なしが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_76",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かきが1こあります。みんなで何こですか？",
+      "answer": "1",
+      "explanation": "かきが1こあるので、答えは1こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_77",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かきが2こあります。みんなで何こですか？",
+      "answer": "2",
+      "explanation": "かきが2こあるので、答えは2こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_78",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かきが3こあります。みんなで何こですか？",
+      "answer": "3",
+      "explanation": "かきが3こあるので、答えは3こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_79",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かきが4こあります。みんなで何こですか？",
+      "answer": "4",
+      "explanation": "かきが4こあるので、答えは4こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_80",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かきが5こあります。みんなで何こですか？",
+      "answer": "5",
+      "explanation": "かきが5こあるので、答えは5こです",
+      "difficulty": 1
+    },
+    {
+      "id": "word_81",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2ことみかんが3こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "2こと3こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_82",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2ことみかんが3こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "2こと3こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_83",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2ことみかんが3こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "2こと3こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_84",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2ことみかんが3こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "2こと3こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_85",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが2ことみかんが3こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "2こと3こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_86",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1こといぬが2こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "1こと2こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_87",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1こといぬが2こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "1こと2こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_88",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1こといぬが2こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "1こと2こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_89",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1こといぬが2こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "1こと2こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_90",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが1こといぬが2こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "1こと2こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_91",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが3ことほんが1こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "3こと1こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_92",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが3ことほんが1こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "3こと1こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_93",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが3ことほんが1こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "3こと1こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_94",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが3ことほんが1こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "3こと1こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_95",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが3ことほんが1こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "3こと1こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_96",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが2ことえんぴつが2こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "2こと2こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_97",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが2ことえんぴつが2こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "2こと2こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_98",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが2ことえんぴつが2こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "2こと2こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_99",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが2ことえんぴつが2こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "2こと2こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_100",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが2ことえんぴつが2こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "2こと2こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_101",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが1ことはなが3こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "1こと3こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_102",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが1ことはなが3こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "1こと3こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_103",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが1ことはなが3こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "1こと3こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_104",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが1ことはなが3こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "1こと3こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_105",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが1ことはなが3こあります。ぜんぶで何こですか？",
+      "answer": "4",
+      "explanation": "1こと3こを足すと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_106",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが2ことぼーるが1こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "2こと1こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_107",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが2ことぼーるが1こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "2こと1こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_108",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが2ことぼーるが1こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "2こと1こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_109",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが2ことぼーるが1こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "2こと1こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_110",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが2ことぼーるが1こあります。ぜんぶで何こですか？",
+      "answer": "3",
+      "explanation": "2こと1こを足すと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_111",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが1ことくるまが4こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "1こと4こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_112",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが1ことくるまが4こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "1こと4こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_113",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが1ことくるまが4こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "1こと4こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_114",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが1ことくるまが4こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "1こと4こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_115",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが1ことくるまが4こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "1こと4こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_116",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが3ことおもちゃが2こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "3こと2こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_117",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが3ことおもちゃが2こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "3こと2こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_118",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが3ことおもちゃが2こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "3こと2こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_119",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが3ことおもちゃが2こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "3こと2こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_120",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが3ことおもちゃが2こあります。ぜんぶで何こですか？",
+      "answer": "5",
+      "explanation": "3こと2こを足すと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_121",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こありました。2こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_122",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こありました。2こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_123",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こありました。2こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_124",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こありました。2こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_125",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りんごが5こありました。2こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_126",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4こありました。1こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_127",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4こありました。1こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_128",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4こありました。1こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_129",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4こありました。1こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_130",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ねこが4こありました。1こつかいました。のこりは何こですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_131",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが6こありました。2こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_132",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが6こありました。2こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_133",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが6こありました。2こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_134",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが6こありました。2こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_135",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ほんが6こありました。2こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_136",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが8こありました。3こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_137",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが8こありました。3こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_138",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが8こありました。3こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_139",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが8こありました。3こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_140",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "えんぴつが8こありました。3こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_141",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが7こありました。3こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "7こから3こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_142",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが7こありました。3こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "7こから3こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_143",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが7こありました。3こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "7こから3こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_144",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが7こありました。3こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "7こから3こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_145",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "はなが7こありました。3こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "7こから3こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_146",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが5こありました。1こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "5こから1こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_147",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが5こありました。1こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "5こから1こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_148",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが5こありました。1こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "5こから1こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_149",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが5こありました。1こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "5こから1こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_150",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ぼーるが5こありました。1こつかいました。のこりは何こですか？",
+      "answer": "4",
+      "explanation": "5こから1こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_151",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが9こありました。4こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "9こから4こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_152",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが9こありました。4こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "9こから4こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_153",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが9こありました。4こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "9こから4こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_154",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが9こありました。4こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "9こから4こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_155",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "くるまが9こありました。4こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "9こから4こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_156",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが6こありました。1こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_157",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが6こありました。1こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_158",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが6こありました。1こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_159",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが6こありました。1こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_160",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "おもちゃが6こありました。1こつかいました。のこりは何こですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_161",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "たろうさんは3こ、はなこさんは5こもっています。はなこさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "5こから3こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_162",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "たろうさんは3こ、はなこさんは5こもっています。はなこさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "5こから3こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_163",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "たろうさんは3こ、はなこさんは5こもっています。はなこさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "5こから3こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_164",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "たろうさんは3こ、はなこさんは5こもっています。はなこさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "5こから3こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_165",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "たろうさんは3こ、はなこさんは5こもっています。はなこさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "5こから3こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_166",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "あきさんは2こ、ゆきさんは4こもっています。ゆきさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "4こから2こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_167",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "あきさんは2こ、ゆきさんは4こもっています。ゆきさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "4こから2こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_168",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "あきさんは2こ、ゆきさんは4こもっています。ゆきさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "4こから2こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_169",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "あきさんは2こ、ゆきさんは4こもっています。ゆきさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "4こから2こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_170",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "あきさんは2こ、ゆきさんは4こもっています。ゆきさんの方が何こ多いですか？",
+      "answer": "2",
+      "explanation": "4こから2こを引くと2こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_171",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "けんさんは1こ、みきさんは6こもっています。みきさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_172",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "けんさんは1こ、みきさんは6こもっています。みきさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_173",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "けんさんは1こ、みきさんは6こもっています。みきさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_174",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "けんさんは1こ、みきさんは6こもっています。みきさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_175",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "けんさんは1こ、みきさんは6こもっています。みきさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "6こから1こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_176",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さくらさんは4こ、ゆうきさんは7こもっています。ゆうきさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "7こから4こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_177",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さくらさんは4こ、ゆうきさんは7こもっています。ゆうきさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "7こから4こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_178",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さくらさんは4こ、ゆうきさんは7こもっています。ゆうきさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "7こから4こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_179",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さくらさんは4こ、ゆうきさんは7こもっています。ゆうきさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "7こから4こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_180",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "さくらさんは4こ、ゆうきさんは7こもっています。ゆうきさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "7こから4こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_181",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りょうさんは2こ、みおさんは5こもっています。みおさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_182",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りょうさんは2こ、みおさんは5こもっています。みおさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_183",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りょうさんは2こ、みおさんは5こもっています。みおさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_184",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りょうさんは2こ、みおさんは5こもっています。みおさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_185",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "りょうさんは2こ、みおさんは5こもっています。みおさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "5こから2こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_186",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かいさんは1こ、えりさんは4こもっています。えりさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_187",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かいさんは1こ、えりさんは4こもっています。えりさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_188",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かいさんは1こ、えりさんは4こもっています。えりさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_189",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かいさんは1こ、えりさんは4こもっています。えりさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_190",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "かいさんは1こ、えりさんは4こもっています。えりさんの方が何こ多いですか？",
+      "answer": "3",
+      "explanation": "4こから1こを引くと3こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_191",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "だいさんは3こ、めいさんは8こもっています。めいさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_192",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "だいさんは3こ、めいさんは8こもっています。めいさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_193",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "だいさんは3こ、めいさんは8こもっています。めいさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_194",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "だいさんは3こ、めいさんは8こもっています。めいさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_195",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "だいさんは3こ、めいさんは8こもっています。めいさんの方が何こ多いですか？",
+      "answer": "5",
+      "explanation": "8こから3こを引くと5こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_196",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひろさんは2こ、あいさんは6こもっています。あいさんの方が何こ多いですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_197",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひろさんは2こ、あいさんは6こもっています。あいさんの方が何こ多いですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_198",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひろさんは2こ、あいさんは6こもっています。あいさんの方が何こ多いですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_199",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひろさんは2こ、あいさんは6こもっています。あいさんの方が何こ多いですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    },
+    {
+      "id": "word_200",
+      "type": "math",
+      "subtype": "word_problem",
+      "question": "ひろさんは2こ、あいさんは6こもっています。あいさんの方が何こ多いですか？",
+      "answer": "4",
+      "explanation": "6こから2こを引くと4こになります",
+      "difficulty": 1
+    }
+  ],
+  "total": 400
+}
