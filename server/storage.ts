@@ -1,7 +1,8 @@
-import { Question, User, Answer, Reward, InsertQuestion, InsertUser, InsertAnswer, DEFAULT_REWARDS, users, questions, answers, rewards } from '../shared/schema';
-import { db } from './db';
-import { eq, and } from 'drizzle-orm';
+import { Question, User, Answer, Reward, InsertQuestion, InsertUser, InsertAnswer, DEFAULT_REWARDS } from '../shared/schema';
 import crypto from 'crypto';
+
+// Firestore用のimport
+import { db as firestoreDb, COLLECTIONS } from './firebase';
 
 export interface IStorage {
   // User operations
@@ -130,7 +131,7 @@ export class MemStorage implements IStorage {
   }
 }
 
-export class DatabaseStorage implements IStorage {
+export class FirestoreStorage implements IStorage {
   constructor() {
     // Initialize with default rewards on first run
     this.initializeDefaultRewards();
@@ -139,11 +140,16 @@ export class DatabaseStorage implements IStorage {
   private async initializeDefaultRewards() {
     try {
       // Check if rewards already exist
-      const existingRewards = await db.select().from(rewards);
+      const rewardsSnapshot = await firestoreDb.collection(COLLECTIONS.REWARDS).get();
       
-      if (existingRewards.length === 0) {
+      if (rewardsSnapshot.empty) {
         // Insert default rewards
-        await db.insert(rewards).values(DEFAULT_REWARDS);
+        const batch = firestoreDb.batch();
+        DEFAULT_REWARDS.forEach(reward => {
+          const docRef = firestoreDb.collection(COLLECTIONS.REWARDS).doc(reward.id);
+          batch.set(docRef, reward);
+        });
+        await batch.commit();
       }
     } catch (error) {
       console.error('Error initializing default rewards:', error);
@@ -153,172 +159,193 @@ export class DatabaseStorage implements IStorage {
   // User operations
   async createUser(user: InsertUser): Promise<User> {
     const id = crypto.randomUUID();
-    const [newUser] = await db
-      .insert(users)
-      .values({
-        id,
-        ...user,
-      })
-      .returning();
-    return {
-      ...newUser,
-      totalScore: newUser.totalScore || 0,
-      mathScore: newUser.mathScore || 0,
-      languageScore: newUser.languageScore || 0,
-      currentRank: newUser.currentRank || 'bronze',
-      rewards: Array.isArray(newUser.rewards) ? newUser.rewards : [],
-      createdAt: newUser.createdAt || new Date(),
-    } as User;
-  }
-
-  async getUserById(id: string): Promise<User | undefined> {
-    const [user] = await db.select().from(users).where(eq(users.id, id));
-    if (!user) return undefined;
-    return {
+    const newUser: User = {
+      id,
       ...user,
       totalScore: user.totalScore || 0,
       mathScore: user.mathScore || 0,
       languageScore: user.languageScore || 0,
       currentRank: user.currentRank || 'bronze',
-      rewards: Array.isArray(user.rewards) ? user.rewards : [],
-      createdAt: user.createdAt || new Date(),
+      rewards: user.rewards || [],
+      createdAt: new Date(),
+    };
+    
+    await firestoreDb.collection(COLLECTIONS.USERS).doc(id).set(newUser);
+    return newUser;
+  }
+
+  async getUserById(id: string): Promise<User | undefined> {
+    const doc = await firestoreDb.collection(COLLECTIONS.USERS).doc(id).get();
+    if (!doc.exists) return undefined;
+    
+    const data = doc.data();
+    return {
+      ...data,
+      totalScore: data?.totalScore || 0,
+      mathScore: data?.mathScore || 0,
+      languageScore: data?.languageScore || 0,
+      currentRank: data?.currentRank || 'bronze',
+      rewards: data?.rewards || [],
+      createdAt: data?.createdAt?.toDate() || new Date(),
     } as User;
   }
 
   async getUserByNameAndPassword(name: string, password: string): Promise<User | undefined> {
-    const [user] = await db
-      .select()
-      .from(users)
-      .where(and(eq(users.name, name), eq(users.password, password)));
-    if (!user) return undefined;
+    const snapshot = await firestoreDb
+      .collection(COLLECTIONS.USERS)
+      .where('name', '==', name)
+      .where('password', '==', password)
+      .get();
+    
+    if (snapshot.empty) return undefined;
+    
+    const doc = snapshot.docs[0];
+    const data = doc.data();
     return {
-      ...user,
-      totalScore: user.totalScore || 0,
-      mathScore: user.mathScore || 0,
-      languageScore: user.languageScore || 0,
-      currentRank: user.currentRank || 'bronze',
-      rewards: Array.isArray(user.rewards) ? user.rewards : [],
-      createdAt: user.createdAt || new Date(),
+      ...data,
+      totalScore: data?.totalScore || 0,
+      mathScore: data?.mathScore || 0,
+      languageScore: data?.languageScore || 0,
+      currentRank: data?.currentRank || 'bronze',
+      rewards: data?.rewards || [],
+      createdAt: data?.createdAt?.toDate() || new Date(),
     } as User;
   }
 
   async updateUser(id: string, updates: Partial<User>): Promise<User> {
-    const [updatedUser] = await db
-      .update(users)
-      .set(updates)
-      .where(eq(users.id, id))
-      .returning();
+    const docRef = firestoreDb.collection(COLLECTIONS.USERS).doc(id);
     
-    if (!updatedUser) {
+    await docRef.update(updates);
+    
+    const doc = await docRef.get();
+    if (!doc.exists) {
       throw new Error('User not found');
     }
+    
+    const data = doc.data();
     return {
-      ...updatedUser,
-      totalScore: updatedUser.totalScore || 0,
-      mathScore: updatedUser.mathScore || 0,
-      languageScore: updatedUser.languageScore || 0,
-      currentRank: updatedUser.currentRank || 'bronze',
-      rewards: Array.isArray(updatedUser.rewards) ? updatedUser.rewards : [],
-      createdAt: updatedUser.createdAt || new Date(),
+      ...data,
+      totalScore: data?.totalScore || 0,
+      mathScore: data?.mathScore || 0,
+      languageScore: data?.languageScore || 0,
+      currentRank: data?.currentRank || 'bronze',
+      rewards: data?.rewards || [],
+      createdAt: data?.createdAt?.toDate() || new Date(),
     } as User;
   }
 
   // Question operations
   async createQuestion(question: InsertQuestion): Promise<Question> {
     const id = crypto.randomUUID();
-    const [newQuestion] = await db
-      .insert(questions)
-      .values({
-        id,
-        ...question,
-      })
-      .returning();
-    return {
-      ...newQuestion,
-      type: newQuestion.type as 'math' | 'language',
-      choices: Array.isArray(newQuestion.choices) ? newQuestion.choices : undefined,
-      createdAt: newQuestion.createdAt || new Date(),
-    } as Question;
+    const newQuestion: Question = {
+      id,
+      ...question,
+      choices: question.choices || undefined,
+      createdAt: new Date(),
+    };
+    
+    await firestoreDb.collection(COLLECTIONS.QUESTIONS).doc(id).set(newQuestion);
+    return newQuestion;
   }
 
   async saveQuestion(question: InsertQuestion, id?: string): Promise<Question> {
     const questionId = id || crypto.randomUUID();
-    const [newQuestion] = await db
-      .insert(questions)
-      .values({
-        id: questionId,
-        ...question,
-      })
-      .returning();
-    return {
-      ...newQuestion,
-      type: newQuestion.type as 'math' | 'language',
-      choices: Array.isArray(newQuestion.choices) ? newQuestion.choices : undefined,
-      createdAt: newQuestion.createdAt || new Date(),
-    } as Question;
+    const newQuestion: Question = {
+      id: questionId,
+      ...question,
+      choices: question.choices || undefined,
+      createdAt: new Date(),
+    };
+    
+    await firestoreDb.collection(COLLECTIONS.QUESTIONS).doc(questionId).set(newQuestion);
+    return newQuestion;
   }
 
   async getQuestionById(id: string): Promise<Question | undefined> {
-    const [question] = await db.select().from(questions).where(eq(questions.id, id));
-    if (!question) return undefined;
+    const doc = await firestoreDb.collection(COLLECTIONS.QUESTIONS).doc(id).get();
+    if (!doc.exists) return undefined;
+    
+    const data = doc.data();
     return {
-      ...question,
-      type: question.type as 'math' | 'language',
-      choices: Array.isArray(question.choices) ? question.choices : undefined,
-      createdAt: question.createdAt || new Date(),
+      ...data,
+      type: data?.type as 'math' | 'language',
+      choices: data?.choices || undefined,
+      createdAt: data?.createdAt?.toDate() || new Date(),
     } as Question;
   }
 
   async getQuestionsByType(type: 'math' | 'language'): Promise<Question[]> {
-    const results = await db.select().from(questions).where(eq(questions.type, type));
-    return results.map(q => ({
-      ...q,
-      type: q.type as 'math' | 'language',
-      choices: Array.isArray(q.choices) ? q.choices : undefined,
-      createdAt: q.createdAt || new Date(),
-    })) as Question[];
+    const snapshot = await firestoreDb
+      .collection(COLLECTIONS.QUESTIONS)
+      .where('type', '==', type)
+      .get();
+    
+    return snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        ...data,
+        type: data.type as 'math' | 'language',
+        choices: data.choices || undefined,
+        createdAt: data.createdAt?.toDate() || new Date(),
+      } as Question;
+    });
   }
 
   // Answer operations
   async createAnswer(answer: InsertAnswer): Promise<Answer> {
     const id = crypto.randomUUID();
-    const [newAnswer] = await db
-      .insert(answers)
-      .values({
-        id,
-        ...answer,
-      })
-      .returning();
-    return {
-      ...newAnswer,
-      answeredAt: newAnswer.answeredAt || new Date(),
-    } as Answer;
+    const newAnswer: Answer = {
+      id,
+      ...answer,
+      answeredAt: new Date(),
+    };
+    
+    await firestoreDb.collection(COLLECTIONS.ANSWERS).doc(id).set(newAnswer);
+    return newAnswer;
   }
 
   async getAnswersByUserId(userId: string): Promise<Answer[]> {
-    const results = await db.select().from(answers).where(eq(answers.userId, userId));
-    return results.map(a => ({
-      ...a,
-      answeredAt: a.answeredAt || new Date(),
-    })) as Answer[];
+    const snapshot = await firestoreDb
+      .collection(COLLECTIONS.ANSWERS)
+      .where('userId', '==', userId)
+      .get();
+    
+    return snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        ...data,
+        answeredAt: data.answeredAt?.toDate() || new Date(),
+      } as Answer;
+    });
   }
 
   // Reward operations
   async getAllRewards(): Promise<Reward[]> {
-    const results = await db.select().from(rewards);
-    return results.map(r => ({
-      ...r,
-      rank: r.rank as 'bronze' | 'silver' | 'gold' | 'platinum' | 'diamond',
-      icon: r.icon || undefined,
-    })) as Reward[];
+    const snapshot = await firestoreDb.collection(COLLECTIONS.REWARDS).get();
+    
+    return snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        ...data,
+        rank: data.rank as 'bronze' | 'silver' | 'gold' | 'platinum' | 'diamond',
+        icon: data.icon || undefined,
+      } as Reward;
+    });
   }
 
   async getRewardsByRank(rank: string): Promise<Reward[]> {
-    const results = await db.select().from(rewards).where(eq(rewards.rank, rank));
-    return results.map(r => ({
-      ...r,
-      rank: r.rank as 'bronze' | 'silver' | 'gold' | 'platinum' | 'diamond',
-      icon: r.icon || undefined,
-    })) as Reward[];
+    const snapshot = await firestoreDb
+      .collection(COLLECTIONS.REWARDS)
+      .where('rank', '==', rank)
+      .get();
+    
+    return snapshot.docs.map(doc => {
+      const data = doc.data();
+      return {
+        ...data,
+        rank: data.rank as 'bronze' | 'silver' | 'gold' | 'platinum' | 'diamond',
+        icon: data.icon || undefined,
+      } as Reward;
+    });
   }
 }

@@ -10,6 +10,53 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
 
 export function createRouter(storage: IStorage) {
+  // Get questions from Firestore
+  router.get('/questions', async (req, res) => {
+    try {
+      const { type, limit = 10 } = req.query;
+      
+      if (!type || (type !== 'math' && type !== 'language')) {
+        return res.status(400).json({ error: 'Valid type (math or language) is required' });
+      }
+
+      const questions = await storage.getQuestionsByType(type as 'math' | 'language');
+      const limitedQuestions = questions.slice(0, parseInt(limit as string));
+      
+      return res.json({
+        questions: limitedQuestions,
+        total: questions.length,
+        type: type
+      });
+    } catch (error) {
+      console.error('Error fetching questions:', error);
+      return res.status(500).json({ error: 'Failed to fetch questions' });
+    }
+  });
+
+  // Get random question from Firestore
+  router.get('/random-question', async (req, res) => {
+    try {
+      const { type } = req.query;
+      
+      if (!type || (type !== 'math' && type !== 'language')) {
+        return res.status(400).json({ error: 'Valid type (math or language) is required' });
+      }
+
+      const questions = await storage.getQuestionsByType(type as 'math' | 'language');
+      if (questions.length === 0) {
+        return res.status(404).json({ error: 'No questions found' });
+      }
+
+      const randomIndex = Math.floor(Math.random() * questions.length);
+      const randomQuestion = questions[randomIndex];
+      
+      return res.json(randomQuestion);
+    } catch (error) {
+      console.error('Error fetching random question:', error);
+      return res.status(500).json({ error: 'Failed to fetch random question' });
+    }
+  });
+
   // Generate a new question using Gemini AI  
   router.post('/generate-question', async (req, res) => {
     try {

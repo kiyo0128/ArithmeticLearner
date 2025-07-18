@@ -1,8 +1,10 @@
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
 import { createRouter } from './routes';
-import { DatabaseStorage } from './storage';
+import { FirestoreStorage } from './storage';
+import { initializeFirestore } from './firebase';
 
 const app = express();
 const port = parseInt(process.env.PORT || '3000', 10);
@@ -11,8 +13,11 @@ const port = parseInt(process.env.PORT || '3000', 10);
 app.use(cors());
 app.use(express.json());
 
-// Initialize storage
-const storage = new DatabaseStorage();
+// Initialize Firestore
+initializeFirestore();
+
+// Initialize storage with Firestore
+const storage = new FirestoreStorage();
 
 // Serve static files from client/dist first
 app.use(express.static(path.join(__dirname, '../client/dist')));
@@ -31,7 +36,7 @@ app.get('/', (_req, res) => {
 });
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`Server running on port ${port}`);
-  console.log(`API available at: http://localhost:${port}/api`);
-  console.log(`Frontend available at: http://localhost:${port}`);
+  console.log(`🔥 Server running on port ${port} with Firebase Firestore`);
+  console.log(`📡 API available at: http://localhost:${port}/api`);
+  console.log(`🌐 Frontend available at: http://localhost:${port}`);
 });
